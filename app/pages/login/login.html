@@ -11,21 +11,21 @@
 
   <ion-list>
     <div class="logo">
-      <img src="img/appicon.svg">
+      <img src="https://acoe.annauniv.edu/student/images/logo.png">
     </div>
 
     <form #loginForm="ngForm" novalidate>
       <ion-item>
-        <ion-label floating primary>Username</ion-label>
+        <ion-label floating primary>Register Number</ion-label>
         <ion-input [(ngModel)]="login.username" name="username" type="text" #username="ngModel" spellcheck="false" autocapitalize="off" required>
         </ion-input>
       </ion-item>
       <p [hidden]="username.valid || submitted == false" danger padding-left>
-        Username is required
+        Register Number is required
       </p>
 
       <ion-item>
-        <ion-label floating primary>Password</ion-label>
+        <ion-label floating primary>Your Password</ion-label>
         <ion-input [(ngModel)]="login.password" name="password" type="password" #password="ngModel" required>
         </ion-input>
       </ion-item>

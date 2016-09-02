@@ -10,6 +10,7 @@ import { SignupPage } from './pages/signup/signup';
 import { TabsPage } from './pages/tabs/tabs';
 import { TutorialPage } from './pages/tutorial/tutorial';
 import { UserData } from './providers/user-data';
+//import { SchedulePage } from './pages/schedule/schedule';
 
 interface PageObj {
   title: string;
