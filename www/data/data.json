@@ -315,20 +315,20 @@
 
   "map": [
     {
-      "name": "Monona Terrace Convention Center",
-      "lat": 43.071584,
-      "lng": -89.380120,
+      "name": "Knowledge Data Center",
+      "lat": 13.0111,
+      "lng": 80.2363,
       "center": true
     },
     {
-      "name": "Ionic HQ",
-      "lat": 43.074395,
-      "lng": -89.381056
+      "name": "ANNA UNIVERSITY",
+      "lat": 13.0111,
+      "lng": 82.2363
     },
     {
-      "name": "Afterparty - Brocach Irish Pub",
-      "lat": 43.07336,
-      "lng": -89.38335
+      "name": "ACOE",
+      "lat": 13.0111,
+      "lng": 83.2363
     }
   ]
 

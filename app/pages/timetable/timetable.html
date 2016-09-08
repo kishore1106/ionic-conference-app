@@ -40,44 +40,55 @@
 </ion-header>
 
 <ion-content>
-  <ion-list >
-
-    <ion-item-group >
-
-      <ion-item-divider sticky>
-       Time Table
-      </ion-item-divider>
-
-      <ion-item-sliding *ngFor="let data of tempdata">
-
-        <button ion-item >
-          <h3>{{data.subjectcode}}</h3>
-          <p>
-            {{data.start}} &mdash;
-            {{data.end}}:
-            {{data.subject}}
-
-          </p>
-        </button>
-
-        <!--<ion-item-options>
-          <button favorite (click)="addFavorite(slidingItem, session)" *ngIf="segment === 'all'">
-            Favorite
-          </button>
-          <button danger (click)="removeFavorite(slidingItem, session, 'Remove Favorite')" *ngIf="segment === 'favorites'">
-            Remove
-          </button>
-        </ion-item-options>-->
-
-      </ion-item-sliding>
-
-    </ion-item-group>
-
-  </ion-list>
-
-  <ion-list-header [hidden]="true">
-     
-  </ion-list-header>
+ <ion-card>
+  <div class="mygradeS"><center><h2>S</h2></center></div>
+  <ion-card-content>
+    <ion-card-title>
+      XC9100 THEORY
+      </ion-card-title>
+    <p>
+      The most popular industrial group ever, and largely
+      responsible for bringing the music to a mass audience.
+    </p>
+  </ion-card-content>
+ </ion-card>
+  
+  <ion-card>
+  <div class="mygradeA"><center><h2>A</h2></center></div>
+  <ion-card-content>
+    <ion-card-title>
+      XC9100 THEORY
+      </ion-card-title>
+    <p>
+      The most popular industrial group ever, and largely
+      responsible for bringing the music to a mass audience.
+    </p>
+  </ion-card-content>
+  </ion-card>
+  <ion-card>
+  <div class="mygradeB"><center><h2>B</h2></center></div>
+  <ion-card-content>
+    <ion-card-title>
+      XC9100 THEORY
+      </ion-card-title>
+    <p>
+      The most popular industrial group ever, and largely
+      responsible for bringing the music to a mass audience.
+    </p>
+  </ion-card-content>
+  </ion-card>
+  <ion-card>
+  <div class="mygradeC"><center><h2>C</h2></center></div>
+  <ion-card-content>
+    <ion-card-title>
+      XC9100 THEORY
+      </ion-card-title>
+    <p>
+      The most popular industrial group ever, and largely
+      responsible for bringing the music to a mass audience.
+    </p>
+  </ion-card-content>
+</ion-card>
 
 
 </ion-content>
