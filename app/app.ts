@@ -10,7 +10,7 @@ import { SignupPage } from './pages/signup/signup';
 import { TabsPage } from './pages/tabs/tabs';
 import { TutorialPage } from './pages/tutorial/tutorial';
 import { UserData } from './providers/user-data';
-import { HallticketPage } from './pages/hallticket/hallticket';
+import { TimetablePage } from './pages/timetable/timetable';
 
 interface PageObj {
   title: string;
@@ -31,11 +31,11 @@ class ConferenceApp {
   // the left menu only works after login
   // the login page disables the left menu
   appPages: PageObj[] = [
-    { title: 'Schedule', component: TabsPage, icon: 'calendar' },
+    { title: 'Time Table', component: TabsPage, icon: 'calendar' },
     { title: 'Speakers', component: TabsPage, index: 1, icon: 'contacts' },
     { title: 'Map', component: TabsPage, index: 2, icon: 'map' },
     { title: 'About', component: TabsPage, index: 3, icon: 'information-circle' },
-    { title: 'Hall Ticket', component: HallticketPage, index: 3, icon: 'star' },
+    { title: 'Hall Ticket', component: TimetablePage, index: 3, icon: 'star' },
   ];
   loggedInPages: PageObj[] = [
     { title: 'Account', component: AccountPage, icon: 'person' },
@@ -121,3 +121,5 @@ class ConferenceApp {
 // http://ionicframework.com/docs/v2/theming/platform-specific-styles/
 
 ionicBootstrap(ConferenceApp, [ConferenceData, UserData], { });
+
+

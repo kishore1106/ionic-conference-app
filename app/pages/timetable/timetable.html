@@ -5,14 +5,79 @@
   Ionic pages and navigation.
 -->
 <ion-header>
+  <ion-navbar no-border-bottom>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
 
-  <ion-navbar>
-    <ion-title>timetable</ion-title>
+    <ion-segment [(ngModel)]="segment" (ionChange)="updateTimeTable()">
+      <ion-segment-button value="MONDAY">
+        Mon
+      </ion-segment-button>
+      <ion-segment-button value="TUESDAY">
+        Tue
+      </ion-segment-button>
+       <ion-segment-button value="WEDNESDAY">
+        Wed
+      </ion-segment-button>
+             
+    </ion-segment>
+
+    <ion-buttons end>
+      <button (click)="presentFilter()">
+        <ion-icon ios="ios-options-outline" md="md-options"></ion-icon>
+      </button>
+    </ion-buttons>
   </ion-navbar>
 
+  <ion-toolbar no-border-top>
+    <ion-searchbar primary
+                   [(ngModel)]="queryText"
+                   (ionInput)="updateSchedule()"
+                   placeholder="Search">
+    </ion-searchbar>
+  </ion-toolbar>
 </ion-header>
 
+<ion-content>
+  <ion-list >
 
-<ion-content padding>
+    <ion-item-group >
+
+      <ion-item-divider sticky>
+       Time Table
+      </ion-item-divider>
+
+      <ion-item-sliding *ngFor="let data of tempdata">
+
+        <button ion-item >
+          <h3>{{data.subjectcode}}</h3>
+          <p>
+            {{data.start}} &mdash;
+            {{data.end}}:
+            {{data.subject}}
+
+          </p>
+        </button>
+
+        <!--<ion-item-options>
+          <button favorite (click)="addFavorite(slidingItem, session)" *ngIf="segment === 'all'">
+            Favorite
+          </button>
+          <button danger (click)="removeFavorite(slidingItem, session, 'Remove Favorite')" *ngIf="segment === 'favorites'">
+            Remove
+          </button>
+        </ion-item-options>-->
+
+      </ion-item-sliding>
+
+    </ion-item-group>
+
+  </ion-list>
+
+  <ion-list-header [hidden]="true">
+     
+  </ion-list-header>
+
 
 </ion-content>

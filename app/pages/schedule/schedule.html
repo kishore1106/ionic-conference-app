@@ -6,11 +6,24 @@
 
     <ion-segment [(ngModel)]="segment" (ionChange)="updateSchedule()">
       <ion-segment-button value="all">
-        All
+        Mon
       </ion-segment-button>
-      <ion-segment-button value="favorites">
-        Favorites
+      <ion-segment-button value="a">
+        Tue
       </ion-segment-button>
+       <ion-segment-button value="as">
+        Wed
+      </ion-segment-button>
+       <ion-segment-button value="fs">
+        Thurs
+      </ion-segment-button>
+       <ion-segment-button value="fss">
+        Fri
+      </ion-segment-button>
+       <ion-segment-button value="favorites">
+       Sat
+      </ion-segment-button>
+      
     </ion-segment>
 
     <ion-buttons end>
@@ -46,6 +59,7 @@
             {{session.timeStart}} &mdash;
             {{session.timeEnd}}:
             {{session.location}}
+
           </p>
         </button>
 
