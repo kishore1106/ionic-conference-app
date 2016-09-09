@@ -1,0 +1,87 @@
+<!--
+  Generated template for the ResultPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+  <ion-navbar no-border-bottom>
+    <ion-title>Result</ion-title>
+    <button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-segment [(ngModel)]="segment" (ionChange)="updateTimeTable()">
+      <ion-segment-button value="Regular">
+        Regular
+      </ion-segment-button>
+      <ion-segment-button value=" Arrear">
+        Arrear
+      </ion-segment-button>
+      <ion-segment-button value="Revalution">
+        Revalution
+      </ion-segment-button>
+    </ion-segment>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <ion-card>
+    <div class="mygradeS">
+      <center>
+        <h2>S</h2></center>
+    </div>
+    <ion-card-content>
+      <ion-card-title>
+        XC9100 OBJECT ORIENTED ANALYSIS AND DESIGN
+      </ion-card-title>
+      <p>
+        The above Result are the End Semester Results NOV/DEC.
+      </p>
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <div class="mygradeA">
+      <center>
+        <h2>A</h2></center>
+    </div>
+    <ion-card-content>
+      <ion-card-title>
+        XC9100 NETWORK PROGRAMMING
+      </ion-card-title>
+      <p>
+        The above Result are the End Semester Results NOV/DEC.
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <div class="mygradeB">
+      <center>
+        <h2>B</h2></center>
+    </div>
+    <ion-card-content>
+      <ion-card-title>
+        XC9101 WEB TECHNOLOGY
+      </ion-card-title>
+      <p>
+        The above Result are the End Semester Results NOV/DEC.
+      </p>
+    </ion-card-content>
+  </ion-card>
+  <ion-card>
+    <div class="mygradeC">
+      <center>
+        <h2>C</h2></center>
+    </div>
+    <ion-card-content>
+      <ion-card-title>
+        XC9102 ENVIRONMENTAL SCIENCE AND ENGINEERING
+      </ion-card-title>
+      <p>
+        The above Result are the End Semester Results NOV/DEC.
+      </p>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

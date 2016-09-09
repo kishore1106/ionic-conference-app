@@ -11,7 +11,7 @@ import { NavController } from 'ionic-angular';
   templateUrl: 'build/pages/timetable/timetable.html',
 })
 export class TimetablePage {
-segment='MONDAY';
+segment='Regular';
 tempdata=[];
   constructor(private navCtrl: NavController) {
 

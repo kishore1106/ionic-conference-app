@@ -10,7 +10,15 @@ import { SignupPage } from './pages/signup/signup';
 import { TabsPage } from './pages/tabs/tabs';
 import { TutorialPage } from './pages/tutorial/tutorial';
 import { UserData } from './providers/user-data';
+
 import { TimetablePage } from './pages/timetable/timetable';
+import { ResultPage } from './pages/result/result';
+
+import { AssessmentmarksPage } from './pages/assessmentmarks/assessmentmarks';
+import { InternalmarksPage } from './pages/internalmarks/internalmarks';
+
+
+
 
 interface PageObj {
   title: string;
@@ -35,7 +43,10 @@ class ConferenceApp {
     { title: 'Speakers', component: TabsPage, index: 1, icon: 'contacts' },
     { title: 'Map', component: TabsPage, index: 2, icon: 'map' },
     { title: 'About', component: TabsPage, index: 3, icon: 'information-circle' },
-    { title: 'Hall Ticket', component: TimetablePage, index: 3, icon: 'star' },
+    { title: 'Hall Ticket', component: TimetablePage, index: 4, icon: 'star' },
+     { title: 'Results', component: ResultPage, index: 5, icon: 'star' },
+     { title: 'Assessment Marks', component: AssessmentmarksPage, index: 6, icon: 'star' },
+     { title: 'Internal Marks', component: InternalmarksPage, index: 7, icon: 'star' },
   ];
   loggedInPages: PageObj[] = [
     { title: 'Account', component: AccountPage, icon: 'person' },

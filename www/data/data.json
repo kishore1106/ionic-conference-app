@@ -5,7 +5,7 @@
       "date": "2047-05-17",
       "groups": [
         {
-          "time": "8:00 am",
+          "time": "30, April, 2016",
           "sessions": [
             {
               "name": "Breakfast",
@@ -17,7 +17,7 @@
           ]
         },
         {
-          "time": "9:00 am",
+          "time": "03, May, 2016",
           "sessions": [
             {
               "name": "Computer Networking",
@@ -50,7 +50,7 @@
           ]
         },
         {
-          "time": "10:00 am",
+          "time": "05, May, 2016",
           "sessions": [
             {
               "name": "Migrating to Ionic2",
@@ -82,7 +82,7 @@
           ]
         },
         {
-          "time": "11:00 am",
+          "time": "07, May, 2016",
           "sessions": [
             {
               "name": "Ionic Workshop",
@@ -114,7 +114,7 @@
           ]
         },
         {
-          "time": "12:00 pm",
+          "time": "10, May, 2016",
           "sessions": [
             {
               "name": "Lunch",
@@ -127,7 +127,7 @@
           ]
         },
         {
-          "time": "1:00 pm",
+          "time": "28, April, 2016",
           "sessions": [
             {
               "name": "Ionic in the Enterprise",
