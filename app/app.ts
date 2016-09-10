@@ -10,6 +10,7 @@ import { SignupPage } from './pages/signup/signup';
 import { TabsPage } from './pages/tabs/tabs';
 import { TutorialPage } from './pages/tutorial/tutorial';
 import { UserData } from './providers/user-data';
+import { SchedulePage } from './pages/schedule/schedule';
 
 import { TimetablePage } from './pages/timetable/timetable';
 import { ResultPage } from './pages/result/result';
@@ -56,7 +57,7 @@ class ConferenceApp {
     { title: 'Login', component: LoginPage, icon: 'log-in' },
     { title: 'Signup', component: SignupPage, icon: 'person-add' }
   ];
-  rootPage: any = TutorialPage;
+  rootPage: any = SchedulePage;
 
   constructor(
     public events: Events,
