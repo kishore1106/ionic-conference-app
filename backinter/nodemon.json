@@ -1,0 +1,7 @@
+{
+  "watch": [
+    "build",
+    "app/index.html"
+  ],
+  "ext" : "js ts json html"
+}
