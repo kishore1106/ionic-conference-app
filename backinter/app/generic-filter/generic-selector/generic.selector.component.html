@@ -1,0 +1,13 @@
+<style>
+    select[disabled] {
+        background-color: #DCDCDC;
+    }
+    /*//use your prefered color here*/
+</style>
+
+
+<label>{{label}}</label>
+<select [(ngModel)]="selectedList" (ngModelChange)="onSelect()" [disabled]="status">
+    <option *ngFor="let list of lists" [ngValue]="list">{{list.name}}</option>
+</select>
+<!--<my-multi-selector [myOptions]="items"  (selectedListOutput)="datafrommultiselect($event)"></my-multi-selector>-->

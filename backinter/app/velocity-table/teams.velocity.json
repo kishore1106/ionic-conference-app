@@ -1,0 +1,424 @@
+[
+    {
+        "divisionId": "division01",
+        "divisionName": "Acsd",
+        "sectionId": "sec_111",
+        "sectionName": "Section-IMSS",
+        "teamId": "t_111",
+        "teamName": "Team-CRM",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+        ]
+    },
+    {
+        "divisionId": "division01",
+        "divisionName": "Acsd",
+        "sectionId": "sec_111",
+        "sectionName": "Section-IMSS",
+        "teamId": "t_222",
+        "teamName": "Team-Pheonix",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+        ]
+    },
+    {
+        "divisionId": "division01",
+        "divisionName": "null",
+        "sectionId": "sec_222",
+        "sectionName": "Section-ISSS",
+        "teamId": "t_333",
+        "teamName": "Team-PL WEB",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+        ]
+    },
+    {
+        "divisionId": "division01",
+        "divisionName": "Acsd",
+        "sectionId": "sec_222",
+        "sectionName": "Section-ASSC",
+        "teamId": "t_444",
+        "teamName": "Team-DSP",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+
+        ]
+    },
+     {
+        "divisionId": "division01",
+        "divisionName": "Acsd",
+        "sectionId": "sec_333",
+        "sectionName": "Section-ATCC",
+        "teamId": "t_555",
+        "teamName": "Team-VSM",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+
+        ]
+    },
+    {
+        "divisionId": "division01",
+        "divisionName": "Acsd",
+        "sectionId": "sec_333",
+        "sectionName": "Section-ATCC",
+        "teamId": "t_666",
+        "teamName": "Team-MOBILE",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+
+        ]
+    },
+    {
+        "divisionId": "division02",
+        "divisionName": "Acsd",
+        "sectionId": "sec_444",
+        "sectionName": "Section-ATCC",
+        "teamId": "t_777",
+        "teamName": "Team-TELEMATICS",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+
+        ]
+    },
+    {
+        "divisionId": "division02",
+        "divisionName": "Acsd",
+        "sectionId": "sec_444",
+        "sectionName": "Section-ATCC",
+        "teamId": "t_888",
+        "teamName": "Team-CM",
+        "velocityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "cummulativeCycTime": 20,
+                "deliveredOnTimeRelease": 20
+            }
+
+        ]
+    }
+    
+]

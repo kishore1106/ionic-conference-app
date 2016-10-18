@@ -1,0 +1,37 @@
+<div class="sel-container col-xs-12 no-padding">
+    <!--<div class="col-md-3 col-sm-4 col-xs-12 marb10">
+        <div class="form-select">
+            <my-role (selectedRoleIdEvent)="selectedRoleId($event)"></my-role>
+        </div>
+    </div>-->
+    <div class="col-md-3 col-sm-4 col-xs-12 marb10" *ngIf="report==true">
+        <div class="form-select">
+            <label>Department</label>
+            <select [disabled]="disableDepartment">
+             <option>{{department}}
+             </option>
+            </select>
+         </div>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 marb10">
+        <div class="form-select">
+            <my-generic-selector [label]="'Divisions'" [lists]="divisions" [status]="disableDivision" (selectedListOutput)="onSelect($event)"></my-generic-selector>
+        </div>
+    </div>
+    <div class="col-md-3 col-sm-4 col-xs-12 marb10">
+        <div class="form-select">
+            <my-generic-selector [label]="'Sections'" [lists]="sections" [status]="disableSection" (selectedListOutput)="onSelect($event)"></my-generic-selector>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-4 col-xs-12 marb10" *ngIf="report==false">
+        <div class="form-select">
+            <my-generic-selector [label]="'Teams'" [lists]="teams" [status]="disableTeam" (selectedListOutput)="onSelect($event)"></my-generic-selector>
+        </div>
+    </div>
+</div>
+<style>
+    select[disabled] {
+   background-color: #DCDCDC; } 
+   /*//use your prefered color here*/
+</style>

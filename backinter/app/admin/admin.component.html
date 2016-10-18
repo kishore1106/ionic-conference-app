@@ -1,0 +1,282 @@
+<!--<button type="submit" class="btn btn-default" (click)="addUser()"> ADD USER</button>-->
+    <!--<sk-rotating-plane [isRunning]="enableSpinner"></sk-rotating-plane>-->
+<div class="tab-head col-xs-12">
+  <div class="col-sm-3 text-center tab-btn no-padding">
+    <button type="submit" class="cat-btn" (click)=" changeweightage()"> ADD/CHANGE WEIGHTAGE</button>
+  </div>
+  <div class="col-sm-3 text-center tab-btn no-padding">
+    <button type="submit" class="cat-btn" > CHANGE ACTUAL/GOAL</button>
+  </div>
+  <div class="col-sm-3 text-center tab-btn no-padding">
+    <button type="submit" class="cat-btn" (click)=" movingATeam()"> Move a Team</button>
+  </div>
+  <div class="col-sm-3 text-center tab-btn no-padding">
+    <button type="submit" class="cat-btn" (click)=" addnewuser()"> New User</button>
+  </div>
+</div>
+<!--spinner starts here-->
+<my-spinner [isRunning]="isRequesting"></my-spinner>
+<!--spinner ends here-->
+
+<!-- moving a team -->
+<div class="container col-xs-12 form-group mart20" *ngIf=" moveTeam">
+    <div class=" form-group mart20">
+      <div style="clear:both;">&nbsp;</div>
+    <label id="Team"> Select the TEAM :</label>
+    <select class="form-control" [(ngModel)]="teamList" (ngModelChange)="onSelect()" [disabled]="status">
+      <option *ngFor="let list of teamList" [ngValue]="list">{{list.name}}</option>
+      </select>
+  </div>
+  <div class="col-sm-6 mart20">
+    <label id="Department"> From Department:</label>
+    <select class="form-control" [(ngModel)]="departmentList" (ngModelChange)="onSelect()" [disabled]="status">
+  <option *ngFor="let list of departmentList" [ngValue]="list">{{list.name}}</option>
+  </select>
+  </div>
+  <div class="col-sm-6 mart20">
+    <label id="Department"> To Department:</label>
+    <select class="form-control" [(ngModel)]="departmentList" (ngModelChange)="onSelect()" [disabled]="status">
+  <option *ngFor="let list of departmentList" [ngValue]="list">{{list.name}}</option>
+  </select>
+  </div>
+  <div class="col-sm-6 mart20">
+    <label id="Division"> From Division:</label>
+    <select class="form-control" [(ngModel)]="divisionList" (ngModelChange)="onSelect()" [disabled]="status">
+      <option *ngFor="let list of divisionList" [ngValue]="list">{{list.name}}</option>
+      </select>
+  </div>
+  <div class="col-sm-6 mart20">
+    <label id="Division"> To Division:</label>
+    <select class="form-control" [(ngModel)]="divisionList" (ngModelChange)="onSelect()" [disabled]="status">
+      <option *ngFor="let list of divisionList" [ngValue]="list">{{list.name}}</option>
+      </select>
+  </div>
+  <div class="col-sm-6 mart20">
+    <label id="Section"> From Section:</label>
+    <select class="form-control" [(ngModel)]="sectionList" (ngModelChange)="onSelect()" [disabled]="status">
+      <option *ngFor="let list of sectionList" [ngValue]="list">{{list.name}}</option>
+      </select>
+  </div>
+  <div class="col-sm-6 mart20">
+    <label id="Section"> To Section:</label>
+    <select class="form-control" [(ngModel)]="sectionList" (ngModelChange)="onSelect()" [disabled]="status">
+      <option *ngFor="let list of sectionList" [ngValue]="list">{{list.name}}</option>
+      </select>
+  </div>
+  <div class="hr-class col-xs-12 no-padding mar10 mart30"></div>
+  <div class="title-btn">
+    <button *ngIf="disableSaveButton" type="submit" class="mart20 cat-btn " disabled>Save</button>
+    <button *ngIf="!disableSaveButton" type="submit" class="mart20 cat-btn" (click)="onSubmit()">Save</button>
+  </div>
+</div>
+
+
+
+
+
+<!--create a new User-->
+
+<div class="container" *ngIf=" createNewUser">
+  <h2 class="col-xs-12 no-padding">Add New Person</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">First Name:</label>
+      <input type="text" class="form-control" [(ngModel)]="newUserDetails.firstName" id="firstname" placeholder="Enter  first name" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="form-group">
+      <label for="name">Last Name:</label>
+      <input type="text" class="form-control" [(ngModel)]="newUserDetails.lastName" id="lastname" placeholder="Enter last name" [ngModelOptions]="{standalone: true}">
+    </div>
+    <div class="form-group">
+      <label for="cwsID">CWSID:</label>
+      <input type="text" class="form-control" [(ngModel)]="newUserDetails.cwsId" id="cwsid" placeholder="Enter CWSID" [ngModelOptions]="{standalone: true}">
+    </div>
+
+    <div class="form-group">
+      <label for="Role">Role:</label>
+      <select class="form-control" [(ngModel)]="selectedRole" (ngModelChange)="onSelectRole()" [disabled]=" status" [ngModelOptions]="{standalone: true}">
+      <option *ngFor="let list of roleList" [ngValue]="list">{{list}}</option>
+      </select>
+      <!--<input type="text" class="form-control" id="department" placeholder="Select Dapartment">-->
+    </div>
+    <div class="form-group" *ngIf="selectedRole == 'Department Manager' ">
+      <label for="Department">Department:</label>
+      <select class="form-control" [(ngModel)]="selectedDepartment" (ngModelChange)="onSelectDepartment()" [disabled]=" status" [ngModelOptions]="{standalone: true}">
+      <option *ngFor="let list of departmentList" [ngValue]="list">{{list.name}}</option>
+      </select>
+      <!--<input type="text" class="form-control" id="department" placeholder="Select Dapartment">-->
+    </div>
+    <div class="form-group" *ngIf="selectedRole == 'Division Coordinator' || selectedRole == 'Division Manager'">
+      <label for="Division">Division:</label>
+      <select class="form-control" [(ngModel)]="selectedDivision" (ngModelChange)="onSelectDivision()" [disabled]=" status" [ngModelOptions]="{standalone: true}">
+      <option *ngFor="let list of divisionList" [ngValue]="list">{{list.name}}</option>
+      </select>
+      <!--<input type="text" class="form-control" id="department" placeholder="Select Dapartment">-->
+    </div>
+    <div class="form-group" *ngIf="selectedRole == 'Section Coordinator' || selectedRole ==  'Supervisor' ">
+      <label for="Section">Section:</label>
+      <select class="form-control" [(ngModel)]="selectedSection" (ngModelChange)="onSelectSection()" [disabled]=" status" [ngModelOptions]="{standalone: true}">
+      <option *ngFor="let list of sectionList" [ngValue]="list">{{list.name}}</option>
+      </select>
+      <!--<input type="text" class="form-control" id="department" placeholder="Select Dapartment">-->
+    </div>
+    <div class="form-group" *ngIf="selectedRole == 'Team Lead' || selectedRole === 'Team Member' ">
+      <label for="Team">Team:</label>
+      <select class="form-control" [(ngModel)]="selectedTeam" (ngModelChange)="onSelectTeam()" [disabled]=" status" [ngModelOptions]="{standalone: true}">
+      <option *ngFor="let list of teamList" [ngValue]="list">{{list.name}}</option>
+      </select>
+      <!--<input type="text" class="form-control" id="department" placeholder="Select Dapartment">-->
+    </div>
+    <div class="radio">
+      <label><input type="checkbox" [(ngModel)]="newUserDetails.isAdmin" [value]="true" [ngModelOptions]="{standalone: true}"> Is a Aministrator ?</label>
+    </div>
+    <div class="hr-class col-xs-12 no-padding mar10 mart30"></div>
+    <div class="title-btn">
+      <!--<button *ngIf="disableSaveButton == true" type="submit" class="cat-btn" disabled>Save</button>-->
+      <button *ngIf="disableSaveButton == false" type="submit" class="cat-btn" (click)="saveUser()">Save</button>
+    </div>
+  </form>
+</div>
+
+
+
+<!--weightage caluculation-->
+<div class="container col-xs-12 form-group mart20" *ngIf=" changeWeightage">
+  <div class="form-group mart20">
+    <label>Division Weightage:</label>
+    <select class="form-control" [(ngModel)]="selectedDivision" (ngModelChange)="onSelectDivision()" [disabled]="status">
+    <option *ngFor="let list of divisionList" [ngValue]="list">{{list.name}}</option>
+</select>
+    <div class="form-group mart20" *ngIf="selectedDivision != undefined">
+      <p>The Previous Edited Month  is <label>{{previousMonth|date:'MMM'}} </label></p>
+      <p>Value is <label for="">{{previousMonthDivisionWeightage}}</label> </p>
+      <p>Current  Year is <label for="">{{previousMonth|date:'yyyy'}}</label> </p>
+      <p>Please Enter for Current Month :<label for="">{{currentTime|date:'MMM'}}</label></p>
+      <input type="number" class="form-control" name="Division Weightage" [(ngModel)]="currentMonthDivisionWeightage" value="currentMonthDivisionWeightage" placeholder="Enter the Weightage" />
+    </div>
+  </div>
+  <div class="form-group mart20" >
+    <label>Section Weightage:</label>
+    <select class="form-control" [(ngModel)]="selectedSection" (ngModelChange)="onSelectSection()" [disabled]="status">
+    <option *ngFor="let list of sectionList" [ngValue]="list">{{list.name}}</option>
+</select>
+    <div class="form-group mart20" *ngIf="selectedSection != undefined">
+      <p>The Previous Edited Month  is <label for="">{{previousMonth|date:'MMM'}}</label> </p>
+      <p>Value is <label for="">{{previousMonthSectionWeightage}}</label> </p>
+      <p>Current  Year is <label for="">{{previousMonth|date:'yyyy'}}</label> </p>      
+      <p>Please Enter for Current Month :{{currentTime|date:'MMM'}}</p>
+      <input type="number" class="form-control mart20" name="Section Weightage" [(ngModel)]="currentMonthSectionWeightage" value="currentMonthSectionWeightage" placeholder="Enter the Weightage" />
+    </div>
+  </div>
+  <div class="form-group mart20">
+    <label>Team Weightage:</label>
+    <select class="form-control" [(ngModel)]="selectedTeam" (ngModelChange)="onSelectTeam()" [disabled]="status">
+    <option *ngFor="let list of teamList" [ngValue]="list">{{list.name}}</option>
+    </select>
+    <div class="form-group mart20" *ngIf="selectedTeam != undefined">
+      <p>The Previous Edited Month  is <label for="">{{previousMonth|date:'MMM'}}</label> </p>
+      <p>Value is <label for="">{{previousMonthTeamWeightage}}</label> </p>
+      <p>Current  Year is <label for="">{{previousMonth|date:'yyyy'}}</label> </p>
+      <p>Please Enter for Current Month :<label for="">{{currentTime|date:'MMM'}}</label></p>
+      <input type="number" class="form-control mart20" name="Team Weightage" [(ngModel)]="currentMonthTeamWeightage" value="currentMonthTeamWeightage" placeholder="Enter the Weightage" />
+    </div>
+  </div>
+  <div class="hr-class col-xs-12 no-padding mar10 mart30"></div>
+  <div class="title-btn">
+    <button type="submit" class="cat-btn mart20" (click)="onclickSubmitForWeightage()" >Submit</button>
+  </div>
+</div>
+
+
+<!--change actual and goal-->
+<div class="container col-xs-12 form-group mart20" *ngIf=" changeAcutalAndGoal">
+  <div class="form-group mart20">
+    <label>Team Weightage:</label>
+    <select class="form-control" [(ngModel)]="selectedTeam" (ngModelChange)="onSelectTeam()" [disabled]="status">
+    <option *ngFor="let list of teamList" [ngValue]="list">{{list.name}}</option>
+    </select>
+    <div class="form-group mart20" *ngIf="selectedTeam != undefined">
+      <input type="text" class="form-control mart20" name="Team Weightage" [(ngModel)]="teamWeightage" value="teamWeightage" placeholder="Enter the Weightage" />
+      <div class="form-group mart20">
+        <label>2015 Actual:</label>
+        <input type="text" class="form-control " name="Team Actual" [(ngModel)]="teamWeightage" value="teamWeightage" placeholder="Enter the Previous Year Total" />
+      </div>
+      <!--<div class="form-group mart20">
+   <label for="percentage value">% percentage</label>
+   <input type="text" class="form-control " name="percentage"  value="25" placeholder="Enter the percentage"/>
+    </div>-->
+      <div class="form-group mart20">
+        <label for="goal">Goal</label>
+        <input type="text" class="form-control" name="Team Goal" value="" placeholder="Enter the goal" />
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--<button type="" (click)="addUser()"> ADD USER</button>
+<div class="container" *ngIf = " ">
+  <h1>Add user</h1>
+  <form [formGroup]="myForm" novalidate (ngSubmit)="save(myForm.value, myForm.valid)">
+    <div class="form-group">
+      <label for="">Name</label>
+      <input type="text" class="form-control" formControlName="name">
+      <small [hidden]="myForm.controls.name.valid || (myForm.controls.name.pristine && !submitted)" class="text-danger">
+            Name is required (minimum 5 characters).
+          </small>
+      <pre class="margin-20">{{ myForm.controls.name.errors | json }}</pre>
+    </div>
+    <div class="form-group" formGroupName="address">
+      <label for="">Address</label>
+      <input type="text" class="form-control" formControlName="street">
+      <small [hidden]="myForm.controls.address.controls.street.valid || (myForm.controls.address.controls.street.pristine && !submitted)" class="text-danger">
+            Street required
+          </small>
+    </div>
+    <div class="form-group" formGroupName="address">
+      <label for="">Postcode</label>
+      <input type="text" class="form-control" formControlName="postcode">
+    </div>
+    <button type="submit" class="btn btn-default">Submit</button>
+    <div class="margin-20">
+      <div>myForm details:-</div>
+      <pre>Is myForm valid?: <br>{{myForm.valid | json}}</pre>
+      <pre>Is myForm submitted?: <br>{{submitted | json}}</pre>
+      <pre>myForm value: <br>{{myForm.value | json}}</pre>
+    </div>
+    <div class="margin-20">
+      Form changes:
+    </div>
+    <div *ngFor="let event of events" class="margin-20">
+      <pre> {{ event | json }} </pre>
+    </div>
+  </form>
+</div>-->

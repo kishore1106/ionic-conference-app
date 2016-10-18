@@ -1,0 +1,87 @@
+{
+    "Userid": "dd2",
+    "firstname": "kishore",
+    "lastname": "deepak",
+    "parentid": "div_123",
+    "roleid": "DM",
+    "department": [
+        {
+            "id": "dept01",
+            "name": "ACSD",
+            "parentId": "dept01",
+            "source": "department"
+        }
+    ],
+    "divisions": [
+        {
+            "id": "division01",
+            "name": "Acsd",
+            "parentId": "dept01",
+            "source": "division"
+        },
+        {
+            "id": "division02",
+            "name": "Acsd-cat",
+            "parentId": "dept01",
+            "source": "division"
+        }
+    ],
+    "sections": [
+        {
+            "id": "sec_111",
+            "name": "section-imss",
+            "parentId": "division01",
+            "source": "section"
+        },
+        {
+            "id": "sec_222",
+            "name": "section-isss",
+            "parentId": "division01",
+            "source": "section"
+        },
+        {
+            "id": "sec_333",
+            "name": "section-assc",
+            "parentId": "division01",
+            "source": "section"
+        },
+        {
+            "id": "sec_444",
+            "name": "section-atcc",
+            "parentId": "division02",
+            "source": "section"
+        }
+    ],
+    "teams": [
+        {
+            "id": "t_111",
+            "name": "team-crm",
+            "parentId": "sec_111",
+            "source": "team"
+        },
+        {
+            "id": "t_222",
+            "name": "team-pheonix",
+            "parentId": "sec_111",
+            "source": "team"
+        },
+        {
+            "id": "t_333",
+            "name": "team-three",
+            "parentId": "sec_222",
+            "source": "team"
+        },
+        {
+            "id": "t_444",
+            "name": "team-four",
+            "parentId": "sec_333",
+            "source": "team"
+        },
+         {
+            "id": "t_555",
+            "name": "team-five",
+            "parentId": "sec_444",
+            "source": "team"
+        }
+    ]
+}

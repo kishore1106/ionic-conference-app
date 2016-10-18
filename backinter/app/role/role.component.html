@@ -1,0 +1,7 @@
+
+<label>Roles</label>
+<select [(ngModel)] = "selectedRole" (ngModelChange)="onSelect()">
+    <option *ngFor="let role of roles|async" [value]="role.role">{{role.role}}</option>
+</select>
+<br/><br/>
+

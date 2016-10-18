@@ -1,0 +1,67 @@
+[{  
+    
+    "SectionId":"sec_333",
+     "SectionName":"Section-ASSC",
+    "Data": [
+        {
+            "label": "JAN",
+            "month":0,
+            "weightage": 100,
+            "qualityImprovement": 83.22,
+            "qualitytargetval": 25,
+            "externalToCat": 1,
+            "externalToAcsd": 0,
+            "onTimeDelivery": 100.00,
+            "productiveImprovement": 36,
+            "productivityTargetVal": 10
+        },
+        {
+            "label": "FEB",
+            "month":1,
+            "weightage": 100,
+            "qualityImprovement": -109.79,
+            "qualitytargetval":25,
+            "externalToCat": 0,
+            "externalToAcsd": 18,
+            "onTimeDelivery": 100.00,
+            "productiveImprovement": 19.5,
+            "productivityTargetVal": 10
+        },
+        {
+            "label": "MAR",
+            "month":2,
+            "weightage": 100,
+            "qualityImprovement": -104.20,
+            "qualitytargetval": 25,
+            "externalToCat": 2,
+            "externalToAcsd": 5,
+            "onTimeDelivery": 100.00,
+            "productiveImprovement": 16,
+            "productivityTargetVal": 10
+        },
+        {
+            "label": "APR",
+            "month":3,
+            "weightage": 100,
+            "qualityImprovement": -76.22,
+            "qualitytargetval": 25,
+            "externalToCat": 2,
+            "externalToAcsd": 1,
+            "onTimeDelivery": 100.00,
+            "productiveImprovement": 42,
+            "productivityTargetVal": 10
+        },
+        {
+            "label": "MAY",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": -94.69,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 8,
+            "onTimeDelivery":100.00,
+            "productiveImprovement": 25.5,
+            "productivityTargetVal": 10
+        }
+    ]
+}]

@@ -1,0 +1,45 @@
+{
+    "Userid": "dd2",
+    "firstname": "kishore",
+    "lastname": "deepak",
+    "parentid": "div_123",
+    "roleid": "DM",
+    "department": [
+        {
+            "id": "dept01",
+            "name": "cat_in",
+            "parentId": "dept01",
+            "source": "department"
+        }
+    ],
+    "divisions": [
+        {
+            "id": "division01",
+            "name": "Acsd",
+            "parentId": "dept01",
+            "source": "division"
+        }
+    ],
+    "sections": [
+        {
+            "id": "sec_111",
+            "name": "section-imss",
+            "parentId": "division01",
+            "source": "section"
+        }
+    ],
+    "teams": [
+        {
+            "id": "t_111",
+            "name": "team-crm",
+            "parentId": "sec_111",
+            "source": "team"
+        },
+        {
+            "id": "t_222",
+            "name": "team-pheonix",
+            "parentId": "sec_111",
+            "source": "team"
+        }
+    ]
+}

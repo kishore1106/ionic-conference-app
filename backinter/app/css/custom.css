@@ -1,0 +1,237 @@
+@font-face{
+font-family:"UniversLTW01-67BoldCn";
+	src:url("../fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix");
+	src:url("../fonts/076b8d7a-91b5-4c89-86a1-546b980072c7.eot?#iefix") format("eot"),
+	url("../fonts/6fac29ee-4085-4f88-bea6-47a93dd7d682.woff2") format("woff2"),
+	url("../fonts/21decb60-b395-4de2-bd04-e38eb2a56d2f.woff") format("woff"),
+	url("../fonts/091058d4-36b2-43f6-80d3-16c88e098061.ttf") format("truetype"),
+	url("../fonts/827d22bc-e38b-4ccf-8a21-1f9aaa76e402.svg#827d22bc-e38b-4ccf-8a21-1f9aaa76e402") format("svg");
+}
+.cat-container {
+  margin: 0 auto;
+  max-width: 1220px;
+  padding: 0 20px;
+  width: 100%;
+}
+a:focus {
+  outline: none;
+  outline-offset: 0;
+}
+img{
+	max-width:100%;
+}
+.no-padding{
+	padding:0;
+}
+.mar0{
+	margin:0;
+}
+.mar10{
+  margin:10px 0;
+}
+.mar20{
+  margin:20px 0;
+}
+.marb20{
+  margin-bottom: 20px;
+}
+.mar30{
+	margin:30px 0;
+}
+.mart10{
+	margin-top:10px;
+}
+.mart15{
+	margin-top:15px;
+}
+.mart20{
+	margin-top:20px;
+}
+.mart25{
+	margin-top:25px;
+}
+.mart30{
+	margin-top:30px;
+}
+.marb10{
+	margin-bottom:10px;
+}
+.marb15{
+	margin-bottom:15px;
+}
+.marb20{
+	margin-bottom:20px;
+}
+.marb25{
+	margin-bottom:25px;
+}
+.marb30{
+	margin-bottom:30px;
+}
+.clearB{
+  clear:both;
+}
+.hr-class {
+  background: #ffcd11 none repeat scroll 0 0;
+  height: 3px;
+}
+.cat-btn {
+  background: #333333 none repeat scroll 0 0;
+  border: medium none;
+  color: #fff;
+  display: inline-block;
+  font-family:UniversLTW01-67BoldCn;
+  height: 35px;
+  min-width: 120px;
+  padding: 0 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition:all 0.4s ease-out 0s;
+  -webkit-transition:all 0.4s ease-out 0s;
+  -moz-transition:all 0.4s ease-out 0s;
+  -ms-transition:all 0.4s ease-out 0s;
+}
+.tab-btn .cat-btn{
+  width:100%;
+}
+.tab-btn .cat-btn:hover, .tab-btn .cat-btn:active, .tab-btn .cat-btn:focus {
+    border-top: none;
+    border-bottom: 2px solid #ffcd11;
+    background: #555;
+}
+.tab-head .tab-btn:first-child .cat-btn {
+    border-left: 2px solid #ffcd11;
+}
+
+.tab-btn .cat-btn {
+    width: 100%;
+    border-right: 2px solid #ffcd11;
+    height: 40px;
+}
+.tab-head {
+    padding: 10px 15px;
+    box-shadow: 1px 1px 2px 0px #999;
+    background: #fafafa;
+}
+.cat-btn:hover{
+	text-decoration: none;
+	 border: 2px solid #ffcd11;
+}
+.title-btn {
+  float: right;
+}
+.title-btn button{
+  margin:0 0 10px 15px;
+}
+/*CAR CSS START HERE*/
+.card-block {
+  box-shadow: 0 1px 3px 2px #999999;
+  padding: 15px;
+}
+.card-date {
+  float: left;
+  font-family: universltw01-67boldcn;
+  font-size: 24px;
+  line-height: 1;
+  padding-bottom: 15px;
+  padding-right: 15px;
+}
+.card-month {
+  background: #ffcd11 none repeat scroll 0 0;
+  padding: 5px 10px;
+  text-transform: uppercase;
+}
+.card-year {
+  background: #555555 none repeat scroll 0 0;
+  color: #ffffff;
+  padding: 5px 10px;
+}
+.card-info {
+  overflow: auto;
+}
+.card-info > div {
+   padding:0 5px;
+   float: left;
+  width: 100%;
+}
+.card-info p{
+	line-height:30px;
+	margin:5px 0;
+}
+.card-info p.pull-left {
+  width: 80%;
+}
+.card-info > div:nth-child(2n) {
+  background: #eaeaea none repeat scroll 0 0;
+
+}
+.card-info > div:nth-child(2n + 1) {
+  background: #fafafa none repeat scroll 0 0;
+  
+}
+.card-info b {
+  background: #555555 none repeat scroll 0 0;
+  color: #ffffff;
+  display: inline-block;
+  line-height: 30px;
+  padding: 0 7px;
+}
+.card-info p .glyphicon {
+  color: #555;
+  font-weight: normal;
+  padding: 0 10px 0 0;
+}
+.editable input {
+    background: #f2f2f2;
+    border: medium none;
+    font-weight: bold;
+    height: 30px;
+    padding: 0 10px;
+    text-align: center;
+    width: calc(100% - 30px);
+    transition: all 0.6s ease-out 0s;
+    -webkit-transition: all 0.6s ease-out 0s;
+    -moz-transition: all 0.6s ease-out 0s;
+    -ms-transition: all 0.6s ease-out 0s;
+}
+.editable input:focus {
+  background: #fff none repeat scroll 0 0;
+  box-shadow: 2px 2px 3px 1px #999;
+  -moz-box-shadow: 2px 2px 3px 1px #999;
+  -webkit-box-shadow: 2px 2px 3px 1px #999;
+  -ms-box-shadow: 2px 2px 3px 1px #999;
+  top: 10px;
+  z-index: 111;
+}
+/*CARD CSS END HERE*/
+
+.multiselect {
+    width: 100%;
+    float: left;
+}
+.multiselect .btn-group {
+    width: 100%;
+}
+.multiselect button.dropdown-toggle.btn.btn-default {
+    width: 100%;
+    text-align: left;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: normal;
+}
+.multiselect span.caret {
+    position: absolute;
+    right: 8px;
+    top: 14px;
+    border-top: 6px dashed;
+    border-top: 6px solid\9;
+    border-right: 3px solid transparent;
+    border-left: 3px solid transparent;
+}
+.teamname {
+     background-color:#ffcd11;
+    box-shadow: 2px 2px 2px 1px #999;
+    -webkit-box-shadow: 2px 2px 2px 1px #999;
+    -moz-box-shadow: 2px 2px 2px 1px #999;
+    -ms-box-shadow: 2px 2px 2px 1px #999;
+}

@@ -1,0 +1,32 @@
+<header id="header">
+		<div class="cat-container">
+			<h1 class="logo"><a href="#"><img src="layout/header/images/catlogo.svg" alt="" title="CAT LOGO" /></a></h1>
+            <!--RESPONSIVE MENU HAMBURGER HERE-->
+				<div class="res-menu visible-xs" data-target="#mainMenu" data-toggle="collapse">
+					<i class="fa fa-bars"></i>
+                </div>
+			<!--RESPONSIVE MENU HAMBURGER HERE-->
+			<nav class="navbar-inverse main-menu pull-right " id="mainMenu">
+				<ul class="nav navbar-nav">
+					<li>
+						<div class="searchBox">
+							<input class="" type="text" placeholder="Search here">
+							<button>
+								<span class="glyphicon glyphicon-search"></span>
+							</button>
+						</div>
+					</li>
+					<li>
+						<a href=""><i class="fa fa-cog" aria-hidden="true"></i></a>
+					</li>
+					<li class="dropdown">
+						<a class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user" aria-hidden="true"></i> {{userDetailsFirstName}}{{userDetailsLastName}}<i class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<ul class="dropdown-menu">
+							<li><a href="#" (click)="onClickLogOut()">LogOut</a></li>
+						</ul>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		<div class="header-gradient"></div>
+	</header>

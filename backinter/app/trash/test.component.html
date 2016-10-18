@@ -1,0 +1,61 @@
+
+    test case  
+    <p *ngFor="let item of Test1">{{x}}</p>  
+</h1>
+<h1>report page</h1>
+<div>
+    <label>Team:</label>
+    <select [(ngModel)]="selectedteamid" (change)="onchange($event.target.value)">
+    <!--<option *ngIf="selectedteamid==team1" value="team1" >--Select--</option>-->
+        <option *ngFor="let team of teams "   [value]="team" >{{team}}</option>
+    </select>
+    <p>{{selectedteamid}}</p>
+</div>
+<p>{{item}}</p>
+<div class="table-responsive" *ngIf="selectedteamid=='ALL'">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Team Name</th>
+                <th>Year</th>
+                <th>Month</th>
+                <th>No of Defects</th>
+                <th>Defects external to ACSD</th>
+                <th>Defects external to CAT</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let teams of temp">
+            <tr *ngFor="let quality of teams.teams_quality_details">
+                <td>{{teams.team_id}}</td>
+                <td>{{quality.year}}</td>
+                <td>{{quality.month}}</td>
+                <td>{{quality.defects}}</td>
+                <td>{{quality.defects_ext_to_acsd}}</td>
+                <td>{{quality.defects_ext_to_cat}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<div class="table-responsive" *ngIf="selectedteamid!='ALL'">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Year</th>
+                <th>Month</th>
+                <th>No of Defects</th>
+                <th>Defects external to ACSD</th>
+                <th>Defects external to CAT</th>
+            </tr>
+        </thead>
+        <tbody *ngFor="let teams of Test1">
+            <tr *ngFor="let quality of teams.teams_quality_details">
+                <td>{{quality.year}}{{teams.team_id}}</td>
+                <td>{{quality.month}}</td>
+                <td>{{quality.defects}}</td>
+                <td>{{quality.defects_ext_to_acsd}}</td>
+                <td>{{quality.defects_ext_to_cat}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+<hr>

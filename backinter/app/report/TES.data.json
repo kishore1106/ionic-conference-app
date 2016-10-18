@@ -1,0 +1,68 @@
+[{  
+    
+    "DivisionId":"DIV123",
+     "DivisionName":"TESDIVISION",
+    "Data": [
+        {
+            "label": "JAN",
+            "month":0,
+            "weightage": 100,
+            "qualityImprovement": 58,
+            "qualitytargetval": 20,
+            "externalToCat": 1,
+            "externalToAcsd": 0,
+            "onTimeDelivery": 98,
+            "productiveImprovement": 49,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "FEB",
+            "month":1,
+            "weightage": 100,
+            "qualityImprovement": -15,
+            "qualitytargetval": 20,
+            "externalToCat": 0,
+            "externalToAcsd": 0,
+            "onTimeDelivery": 98,
+            "productiveImprovement": -2,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAR",
+            "month":2,
+            "weightage": 100,
+            "qualityImprovement": -26.13,
+            "qualitytargetval": 20,
+            "externalToCat": 3,
+            "externalToAcsd": 2,
+            "onTimeDelivery": 99.67,
+            "productiveImprovement": -12,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "APR",
+            "month":3,
+            "weightage": 100,
+            "qualityImprovement": 36.10,
+            "qualitytargetval": 20,
+            "externalToCat": 3,
+            "externalToAcsd": 9,
+            "onTimeDelivery": 100,
+            "productiveImprovement": -37,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAY",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": -13.50,
+            "qualitytargetval": 20,
+            "externalToCat": 1,
+            "externalToAcsd": 13,
+            "onTimeDelivery": 99.67,
+            "productiveImprovement": -63,
+            "productivitytargetval": 10
+        }
+    ]
+}]
+

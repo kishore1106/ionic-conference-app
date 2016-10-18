@@ -1,0 +1,19 @@
+[
+
+    {
+        "id": "1",
+        "role": "Team Member"
+    },
+    {
+        "id": "2",
+        "role": "Supervisor"
+    },
+    {
+        "id": "3",
+        "role": "Division Manager"
+    },
+    {
+        "id": "4",
+        "role": "Department Manager"
+    }
+]

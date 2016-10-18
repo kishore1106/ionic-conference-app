@@ -1,0 +1,68 @@
+
+/* Put your css in here */
+
+.btn-primary {
+    color: #f3f3f3!important;
+    text-transform: uppercase;
+    font-family: "UniversLTW02-67BoldCn","UniversLTW10-67BoldCn","Arial Narrow bold",Arial,sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 14px;
+    padding: 10px 20px;
+    border: 1px solid #000;
+    border-radius: 0;
+}
+
+.btn-primary {
+    background: #333;
+    font-family: UniversLTW01-67BoldCn;
+    font-size: 16px;
+}
+li.menuitem {
+    /*float: right;*/
+    /*width: 50px;
+    height: 50px;
+    margin: 10px;
+    border: 3px solid #FFFFFF;*/
+    display: inline-block;
+}
+
+.input-group .form-control {
+    position: relative;
+    z-index: 2;
+    float: left;
+    width: 50%;
+    margin-bottom: 0;
+
+}
+li.logo {
+  float: left;
+  width: 75px;
+  padding: 0;
+  border-right: 0;
+  background: transparent url(http://www.cat.com/etc/designs/catDotCom/clientlibs/img/header/nav-desktop.png) -96px 17px no-repeat;
+}
+
+/*.glyphicon.glyphicon-cog{
+    position: relative;
+  font-size: 100px;
+}*/
+li {
+display: inline-block;
+}
+
+/*.nav > li > a {
+    position: relative;
+    display: block;
+    padding: 8px 100px;
+}*/
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+    color: #555;
+    cursor: default;
+    background-color: #ffbf00;
+    border: 1px solid #ffbf00;
+    border-bottom-color: #ffbf00;
+}
+
+

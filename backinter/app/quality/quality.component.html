@@ -1,0 +1,13 @@
+<my-multi-selector  (disableEdit)="disableEdit($event)" 
+                    (selectedListOutput)="selectList($event)" 
+                    [disableTeam]="disableTeamdropdown"
+                    (loggedInUserRole)="getBooleanValuesForAggregation($event)" 
+                    (selectedlistofsections)="selectedlistofsections($event)"
+                    (selectedlistofdivisions)="selectedlistofdivisions($event)" ></my-multi-selector>
+<my-quality-table   [selectedList]="selectedList" 
+                    (changedvaluesofquality)="changedvaluesofqualitytable($event)" 
+                    [editableField]="editablefield" 
+                    [showAggregation]="showAggregation" 
+                    [selectedListOfsections]="selectedListOfsections"
+                    [selectedListOfdivisions]="selectedListOfdivisions"></my-quality-table>
+<save [updatedQualityData]="changedQualityArray" (editRightsEvent)="editpermission($event)"></save> 

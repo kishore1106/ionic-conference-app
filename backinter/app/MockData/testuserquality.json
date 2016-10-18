@@ -1,0 +1,120 @@
+[
+    {
+        "division_id": "division01",
+        "division_name": "Acsd",
+        "section_id": "sec_123",
+        "section_name": "section-imss",
+        "team_id": "t_123",
+        "team_name": "team-crm",
+        "teams_quality_details": [
+            {
+                "year": "2016",
+                "month": "jan",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "feb",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "mar",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "apr",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "may",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "jun",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "jul",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            }
+        ]
+    },
+    {
+        "division_id": "division01",
+        "division_name": "Acsd",
+        "section_id": "sec_111",
+        "section_name": "section-imss",
+        "team_id": "t_222",
+        "team_name": "team-pheonix",
+        "teams_quality_details": [
+            {
+                "year": "2016",
+                "month": "jan",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "feb",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "mar",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "apr",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "may",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "jun",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            },
+            {
+                "year": "2016",
+                "month": "jul",
+                "defects": 20,
+                "defects_ext_to_acsd": 20,
+                "defects_ext_to_cat": 20
+            }
+        ]
+    }
+]

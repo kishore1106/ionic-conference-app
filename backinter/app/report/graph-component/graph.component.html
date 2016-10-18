@@ -1,0 +1,64 @@
+<style>
+    .graph-block {
+        box-shadow: 0px 1px 2px 2px #cccccc;
+        -webkit-box-shadow: 0px 1px 2px 2px #cccccc;
+        -moz-box-shadow: 0px 1px 2px 2px #cccccc;
+        -ms-box-shadow: 0px 1px 2px 2px #cccccc;
+        padding: 15px 0;
+        margin-bottom: 35px;
+    }
+    
+    .graph-block h4 {
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+</style>
+<div>
+    <h4>
+        <center>{{sectionName}}</center>
+    </h4>
+    <div class="col-md-6 clearB">
+        <div class="graph-block">
+
+            <div>
+                <h4>
+                    <center>TES - ONTIME DELIVERY</center>
+                </h4>
+            </div>
+            <nvd3 [options]="onTimeDeliveryChartOptions" [data]="onTimeDeliveryData"></nvd3>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="graph-block">
+            <div>
+                <h4>
+                    <center>TES - EXTERNAL TO CAT</center>
+                </h4>
+            </div>
+            <nvd3 [options]="externalToCatAndAcsdChartOptions" [data]="externalToCatAndAcsdData"></nvd3>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="graph-block">
+            <div>
+                <h4>
+                    <center>TES - SOFTWARE QUALITY IMPROVEMENT (%)</center>
+                </h4>
+            </div>
+            <nvd3 [options]="qualityImprovementChartOption" [data]="qualityImprovementData"></nvd3>
+        </div>
+    </div>
+
+    <div class="col-md-6">
+        <div class="graph-block">
+            <div>
+                <h4>
+                    <center>TES - PRODUCTIVITY IMPROVEMENT (%)</center>
+                </h4>
+            </div>
+            <nvd3 [options]="productivityImprovementChartOption" [data]="productivityImprovementdata"></nvd3>
+        </div>
+    </div>
+</div>

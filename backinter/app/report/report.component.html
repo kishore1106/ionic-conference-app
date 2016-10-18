@@ -1,0 +1,14 @@
+
+<!--<my-generic-filter [report]="true" (selectedListOutput)="selectList($event)"></my-generic-filter>-->
+<my-multi-selector  [report]="report" (selectedListOutput)="selectList($event)"></my-multi-selector>
+<div class="col-md-3 col-sm-4 col-xs-12 marb10">
+    <div class="form-select">
+        <label>Year:</label>
+        <select (change)="onSelectYear($event.target.value)">
+        <option *ngFor="let year of years"   [ngValue]="year">{{year.id}}</option>
+</select>
+        <br/><br/>
+    </div>
+</div>
+<my-graph [reportDataQualityArray]="reportDetailsQualityArray" [reportDataVelocityArray]="reportDetailsVelocityArray"></my-graph>
+<save></save>

@@ -1,0 +1,59 @@
+[{
+    "Userid": "dd2",
+    "firstname": "kishore",
+    "lastname": "deepak",
+    "parentid": "t_123",
+    "roleid": "DM",
+    "rolename":"Division manager",
+    "department": [{
+        "department_id": "dept01",
+        "department_name": "cat_in"
+    }],
+    "divisions": [{
+        "division_id": "div01",
+        "division_name": "Acsd"
+    }, {
+        "division_id": "div02",
+        "division_name": "Atd"
+    }],
+    "section": [{
+        "section_id": "sec_123",
+        "section_name": "section 123"
+    }, {
+        "section_id": "sec_456",
+        "section_name": "section 456"
+    }, {
+        "section_id": "sec_789",
+        "section_name": "section 789"
+    }],
+    "team": [{
+        "team id": "t_123",
+        "team name": "team-crm"
+    }, {
+        "team id": "t_456",
+        "team name": "team-imss"
+    }, {
+        "team id": "t_789",
+        "team name": "team-isss"
+    }],
+    "teams_quality_details": [{
+        "year": "2016",
+        "month": "jan",
+        "defects": 20,
+        "defects_ext_to_acsd": 20,
+        "defects_ext_to_cat": 20
+    }],
+    "team_velocity_details": [{
+        "year": "2016",
+        "month": "jan",
+        "defects": 20,
+        "cummulative_cyc_time": 201,
+        "delivered_on_time_release": 201
+    }, {
+        "year": "2013",
+        "month": "feb",
+        "defects": 20,
+        "cummulative_cyc_time": 202,
+        "delivered_on_time_release": 202
+    }]
+}]

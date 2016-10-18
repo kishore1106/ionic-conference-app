@@ -1,0 +1,121 @@
+#header {
+  background: #000000 none repeat scroll 0 0;
+}
+.cat-container {
+  margin: 0 auto;
+  max-width: 1220px;
+  padding: 0 20px;
+  width: 100%;
+}
+h1.logo {
+  display: inline-block;
+  margin: 5px 0;
+  width: 100px;
+}
+.main-menu.navbar-inverse {
+  background: #000 none repeat scroll 0 0;
+}
+.main-menu .navbar-nav > li{
+	position: relative;
+}
+.main-menu .navbar-nav > li:after {
+  background: #555 none repeat scroll 0 0;
+  content: "";
+  height: 26px;
+  position: absolute;
+  left: 0;
+  top: 14px;
+  width: 1px;
+}
+.main-menu .navbar-nav > li:first-child:after {
+	width:0;
+}
+.searchBox {
+  display: table;
+  font-size: 13px;
+   padding: 11px 10px;
+}
+.searchBox input {
+  border: medium none;
+  border-radius: 3px 0 0 3px;
+  display: table-cell;
+  height: 30px;
+  padding: 0 10px;
+}
+.searchBox button {
+  background: #ffcd11 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 0 3px 3px 0;
+  display: table-cell;
+  height: 30px;
+  width: 35px;
+}
+.searchBox button span {
+  font-weight: bold;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #fff;
+  font-size: 16px;
+}
+.header-gradient {
+  background:url("layout/header/images/header-gradient.png") repeat scroll 0 0;
+  height: 17px;
+}
+.main-menu .dropdown-menu {
+  background: #222 none repeat scroll 0 0;
+}
+.main-menu .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.main-menu .dropdown-menu > li > a:focus, .main-menu .dropdown-menu > li > a:hover {
+  background-color: #222;
+  color: #ffffff;
+}
+
+#footer{
+	height:20px;
+	background:#000;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+
+@media all and (max-width:767px){
+  /*MOBILE MENU STYLE START*/
+.res-menu {
+    color: #ffffff;
+    float: right;
+    font-size: 36px;
+    cursor:pointer;
+}
+.res-menu:hover, .res-menu:focus, .res-menu:active, .res-menu[aria-expanded="true"]{
+  color:#ffcd11;
+}
+.main-menu{
+    display: none;
+}
+.collapse.in{
+    display: block;
+}
+.main-menu.navbar-inverse {
+  left: 0;
+  padding: 0 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 11;
+}
+.searchBox {
+  width: 100%;
+}
+.searchBox input {
+  width: calc(100% - 35px);
+}
+.main-menu .navbar-nav > li::after{
+  width: 0;
+}
+.main-menu .navbar-nav > li {
+    border-bottom: 1px solid #555555;
+}
+/*MOBILE MENU STYLE END*/
+
+}

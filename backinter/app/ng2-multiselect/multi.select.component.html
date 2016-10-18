@@ -1,0 +1,29 @@
+
+<div class="sel-container col-xs-12 no-padding" *ngIf="report==true">
+      <div class="col-sm-4 col-xs-12 marb10" >
+        <label>Department</label>
+        <multiselect-dropdown class="multiselect" [options]="department"  [disable]="false" [allChecked]="false"></multiselect-dropdown>
+    </div>
+        <div class="col-sm-4 col-xs-12 marb10">
+        <label>Divisions:</label>
+        <multiselect-dropdown class="multiselect" [options]="divisions"  [disable]="disableDivision" (selectedModel)="optionsUpdated($event)" (selectedListFromOptions)="selectedoptions($event)" [allChecked]="false" ></multiselect-dropdown>
+    </div>
+    <div class="col-sm-4 col-xs-12 marb10">
+          <label>Sections:</label>
+        <multiselect-dropdown class="multiselect" [options]="sections" [disable]="disableSection" (selectedModel)="optionsUpdated($event)" (selectedListFromOptions)="selectedoptions($event)" [allChecked]="false" ></multiselect-dropdown>
+    </div>
+</div>
+<div class="sel-container col-xs-12 no-padding" *ngIf="report==false">
+        <div class="col-sm-4 col-xs-12 marb10">
+        <label>Divisions:</label>
+        <multiselect-dropdown class="multiselect" [options]="divisions"  [disable]="disableDivision" (selectedModel)="optionsUpdated($event)" (selectedListFromOptions)="selectedoptions($event)" [allChecked]="checkAll" ></multiselect-dropdown>
+    </div>
+    <div class="col-sm-4 col-xs-12 marb10">
+          <label>Sections:</label>
+        <multiselect-dropdown class="multiselect" [options]="sections" [disable]="disableSection" (selectedModel)="optionsUpdated($event)" (selectedListFromOptions)="selectedoptions($event)" [allChecked]="checkAll" ></multiselect-dropdown>
+    </div>
+    <div class="col-sm-4 col-xs-12 marb10">
+          <label>Teams:</label>
+        <multiselect-dropdown class="multiselect" [disableEdit]="disableEdit" [options]="teams" [disable]="disableTeam" (selectedModel)="optionsUpdated($event)" (selectedListFromOptions)="selectedoptions($event)" [allChecked]="checkAll" ></multiselect-dropdown>
+    </div>
+</div>

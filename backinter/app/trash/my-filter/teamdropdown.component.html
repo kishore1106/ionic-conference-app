@@ -1,0 +1,8 @@
+<div>
+    <label>team:</label>
+    <select [(ngModel)]="selected_team_id" (change)="onChange_team_Id($event.target.value)">
+    <!--<option *ngIf="selectedteamid==team1" value="team1" >--Select--</option>-->
+        <option *ngFor="let team of team_list_array "   [value]="team" >{{team}}</option>
+    </select>
+    <p>{{selected_team_id}}</p>
+</div>

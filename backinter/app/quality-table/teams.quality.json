@@ -1,0 +1,480 @@
+[
+    {
+        "divisionId": "division01",
+        "divisionName": "TES",
+        "sectionId": "sec_111",
+        "sectionName": "Section-IMSS",
+        "teamId": "t_111",
+        "teamName": "Team-CRM",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 1,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 1,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 8,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 7,
+                "defectsExtAcsd": 7,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 8,
+                "defectsExtAcsd": 3,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 8,
+                "defectsExtAcsd": 8,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 5,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            }
+        ]
+    },
+    {
+        "divisionId": "division01",
+        "divisionName": "TES",
+        "sectionId": "sec_111",
+        "sectionName": "Section-IMSS",
+        "teamId": "t_222",
+        "teamName": "Team-Pheonix",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 12,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 11,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 16,
+                "defectsExtAcsd": 2,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 4,
+                "defectsExtAcsd": 2,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 5,
+                "defectsExtAcsd": 1,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 5,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 16,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            }
+        ]
+    },
+    {
+        "divisionId": "division01",
+        "divisionName": "TES",
+        "sectionId": "sec_222",
+        "sectionName": "Section-ISSS",
+        "teamId": "t_333",
+        "teamName": "Team-PL WEB",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 2,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 13,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 29,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 11,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 15,
+                "defectsExtAcsd": 0,
+                "defectsExtCat": 0
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            }
+        ]
+    },
+    {
+        "divisionId": "division01",
+        "divisionName": "TES",
+        "sectionId": "sec_222",
+        "sectionName": "Section-ISSS",
+        "teamId": "t_444",
+        "teamName": "Team-DSP",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            }
+
+        ]
+    },
+     {
+        "divisionId": "division02",
+        "divisionName": "Acsd",
+        "sectionId": "sec_333",
+        "sectionName": "Section-ASSC",
+        "teamId": "t_555",
+        "teamName": "Team-VSM",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            }
+
+        ]
+    },
+    {
+        "divisionId": "division02",
+        "divisionName": "Acsd",
+        "sectionId": "sec_333",
+        "sectionName": "Section-ASSC",
+        "teamId": "t_666",
+        "teamName": "Team-MOBILE",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            }
+
+        ]
+    },
+    {
+        "divisionId": "division02",
+        "divisionName": "Acsd",
+        "sectionId": "sec_444",
+        "sectionName": "Section-ATCC",
+        "teamId": "t_777",
+        "teamName": "Team-TELEMATICS",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            }
+
+        ]
+    },
+    {
+        "divisionId": "division02",
+        "divisionName": "Acsd",
+        "sectionId": "sec_444",
+        "sectionName": "Section-ATCC",
+        "teamId": "t_888",
+        "teamName": "Team-CM",
+        "qualityData": [
+            {
+                "year": "2016",
+                "month": "Jan",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Feb",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Mar",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Apr",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "May",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jun",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            },
+            {
+                "year": "2016",
+                "month": "Jul",
+                "defects": 20,
+                "defectsExtAcsd": 20,
+                "defectsExtCat": 20
+            }
+
+        ]
+    }
+    
+]

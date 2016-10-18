@@ -1,0 +1,1033 @@
+<section id="dashboard-view" class="mainbar">
+  <section class="matter" style="display:none;">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <ul class="today-datas">
+            <li class="blightblue">
+              <div class="pull-left"><i class="fa fa-plane"></i></div>
+              <div class="datas-text pull-right">
+                <span class="bold">May 18 - 19, 2015</span> Castle Resort, Neverland
+              </div>
+              <div class="clearfix"></div>
+            </li>
+
+            <li class="borange">
+              <div class="pull-left"><i class="fa fa-envelope"></i></div>
+              <div class="datas-text pull-right">
+                <span class="bold">{{vm.messageCount}}</span> Messages
+              </div>
+              <div class="clearfix"></div>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="widget wviolet">
+            <div class="widget-content text-center text-info">
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="widget wgreen">
+            <div ht-widget-header title="{{vm.news.title}}" allow-collapse="true"></div>
+            <div class="widget-content text-center text-info">
+              <small>{{vm.news.description}}</small>
+            </div>
+            <div class="widget-foot">
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+    <div class="secondaryMenu col-md-12">
+        <div class="pull-left">Choose Application 
+            <select>
+                <option value="Product web link">Product web link</option>
+                <option value="PM Sync">PM Sync</option>
+                <option value="OMS">OMS</option>
+            </select>
+        </div>
+        <div class="pull-left radioOptions">
+            <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Production
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> QA
+</label>
+        </div>
+        <a class="pull-right Download"><span class="glyphicon glyphicon-download-alt"></span> Download</a>
+        <button class="pull-right btn btn-default" ng-click="vm.openModal('')">Request for Performance Engineering</button>
+        <div class="clearfix"></div>
+    </div>                
+        <div class="col-md-12">
+                <h3>Product Link Web 
+                    <span class="dropMenu" ng-class="{'active':!vm.isCollapsed}" ng-click="vm.isCollapsed=!vm.isCollapsed">Test details <span class="glyphicon glyphicon-menu-down"></span></span>
+                </h3>
+            <div uib-collapse="vm.isCollapsed" class="dropMenuOptions">
+                <div class="col-md-12">
+                    <div class="col-sm-3">
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                        <div class="col-md-12">
+                        <p class="col-xs-6">Sample text</p>
+                        <p class="col-xs-6">10</p>
+                            </div>
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+		
+	</div>
+            </div>
+            <div class="col-md-12">
+                <uib-tabset active="active">
+    <uib-tab index="0" heading="Load Test">
+        <div class="row">
+  <div class="col-sm-6 col-md-4 chartUi">
+    <div class="thumbnail">
+        <div class="chartHer">
+      <img src="/src/client/images/chart.png" alt="...">
+            </div>      
+        <h3 class="text-center">End to End Perfomance</h3>        
+    </div>
+  </div>
+            <div class="col-sm-6 col-md-4 chartUi">
+    <div class="thumbnail">
+        <div class="chartHer">
+      <img src="/src/client/images/chart.png" alt="...">
+            </div>      
+        <h3 class="text-center">API Perfomance</h3>        
+    </div>
+  </div>
+            <div class="col-sm-6 col-md-4 chartUi">
+    <div class="thumbnail">
+        <div class="chartHer">
+      <img src="/src/client/images/chart.png" alt="...">
+            </div>      
+        <h3 class="text-center">User Experience</h3>        
+    </div>
+  </div>
+            <div class="col-md-12 text-center">
+                <span class="glyphicon glyphicon-asterisk"></span><span>Item 1</span> 
+                <span class="glyphicon glyphicon-asterisk"></span><span>Item 2</span> 
+                <span class="glyphicon glyphicon-asterisk"></span><span>Item 3</span>
+            </div>
+            <div class="col-md-12">
+      <ul rn-carousel="" rn-carousel-controls="" rn-carousel-index="carouselIndex" rn-carousel-easing="easeInOutQuad" rn-carousel-duration="500" class="carousel1 ng-scope">
+  <li><div class="tiles">
+            <h1>Performance Improvement (Test Results)</h1>
+            <div class="content">
+                <img src="/src/client/images/graph.png" width="100%" height="100%">
+            </div>
+        </div>
+          </li>
+  <li><div class="tiles">
+            <h1>Performance Improvement (Test Results)</h1>
+            <div class="content">
+                <img src="/src/client/images/graph.png" width="100%" height="100%">
+            </div>
+        </div>
+          </li>
+          <li><div class="tiles">
+            <h1>Performance Improvement (Test Results)</h1>
+            <div class="content">
+                <img src="/src/client/images/graph.png" width="100%" height="100%">
+            </div>
+        </div>
+          </li>
+          <li><div class="tiles">
+            <h1>Performance Improvement (Test Results)</h1>
+            <div class="content">
+                <img src="/src/client/images/graph.png" width="100%" height="100%">
+            </div>
+        </div>
+          </li>
+          <li><div class="tiles">
+            <h1>Performance Improvement (Test Results)</h1>
+            <div class="content">
+                <img src="/src/client/images/graph.png" width="100%" height="100%">
+            </div>
+        </div>
+          </li>
+</ul>
+    </div>
+    <div class="col-md-12 titesUI">
+        <div class="tiles">
+            <h1>Performance Improvement (Test Results)</h1>
+            <div class="content">
+                <img src="/src/client/images/graph.png" width="100%">
+            </div>
+        </div>
+    </div>
+</div>
+      </uib-tab>
+                    <uib-tab index="1" heading="Endurance Test" active="true">
+        <div class="fixedScrollTable">
+		
+		<!-- First table - scroll hidden-->
+		<div class="leftPanel">
+			<div id="table" class="tableClass">
+				<div class="theadClass">
+					<div class="trClass">
+						<div class="thClass">Scenario</div>
+					</div>
+				</div>
+				<div class="tbodyClass hideScrollBar" id="firsttable">
+					<div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content">Cat Connect -> Product Link Home</div>
+							</div>
+						</div>						
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!-- Second table -->
+		<div class="rightPanel">
+			<div id="table" class="tableClass">
+				<div class="theadClass addThickBorder" id="headerSn">
+					<div class="trClass" ng-style="rowWidth">
+                        <div class="thClass" >SLA (Sec)</div> 
+                        <div class="thClass" >
+                            <div class="th-content bg-grey">June 10th</div> 
+                            </div> 
+                        <div class="thClass" >
+                            <div class="th-content bg-grey">June 9th</div> 
+                            </div> 
+                        <div class="thClass" >
+                            <div class="th-content bg-grey">June 8th</div> 
+                            </div> 
+                        <div class="thClass" >
+                            <div class="th-content bg-grey">June 7th</div> 
+                            </div> 
+                        <div class="thClass" >
+                            <div class="th-content bg-grey">June 6th</div> 
+                            </div> 
+                        <div class="thClass" >
+                            <div class="th-content bg-grey">June 5th</div> 
+                            </div> 
+                        <div class="thClass" >
+                            <div class="th-content bg-grey">June 4th</div> 
+                            </div>                         
+					</div>
+				</div>
+				<div class="tbodyClass" scrolltable="true" horzelem="headerSn" nexttable="firsttable">
+					<div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-orange">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-red">10</div>
+							</div>
+                            <div class="tdClass"> 
+								<div class="td-content bg-green">10</div>
+							</div>
+						</div>						
+					</div>
+                    
+				</div>
+			</div>
+		</div>
+	</div>
+      </uib-tab>
+                    <uib-tab index="2" heading="Stress Test">
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="tiles">
+            <h1>Analysis Summary</h1>
+            <div class="content height250">
+                <p>28/03/2016 02:47:46 - 28/03/2016 03:49:55</p>
+                <div class="col-xs-6">
+                    <div class="bg-light-grey text-center height100 content-box">
+                    <p>Scenario Name</p>
+                    <h4 class="text-green">Scenario 1</h4>
+                        </div>
+                </div>
+                <div class="col-xs-6">
+                    <div class="bg-light-grey text-center height100 content-box">
+                    <p>Duration</p>
+                    <h4 class="text-green">1 hr</h4>
+                        <p class="text-green">2 mins and 9 secs</p>
+                        </div>
+                </div>
+                <div class="clearfix"></div>
+                <p><br>Results in Session:
+                <a href="#">d:\DataVis\Result\DataViz_28March_Run120\DataViz_
+28March_Run120.lrr</a>
+                </p>
+            </div>
+        </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tiles">
+            <h1>Statistics Summary</h1>
+            <div class="content height250">
+                <p>28/03/2016 02:47:46 - 28/03/2016 03:49:55</p>                
+                <div>
+                    <p class="col-xs-8">Maximum Running Vusers:</p>
+                    <p class="col-xs-4 text-green">10</p>               
+                    </div>
+                <div>
+                    <p class="col-xs-8">Location:</p>
+                    <p class="col-xs-4 text-green">Peoria</p>               
+                    </div>
+                <div>
+                    <p class="col-xs-8">Total Throughput (bytes):</p>
+                    <p class="col-xs-4 text-green">2,501,492,828</p>               
+                    </div>
+                <div>
+                    <p class="col-xs-8">Average Throughput (bytes/second):</p>
+                    <p class="col-xs-4 text-green">670,642</p>               
+                    </div>
+                <div>
+                    <p class="col-xs-8">Total Hits:</p>
+                    <p class="col-xs-4 text-green">10</p>               
+                    </div>
+                <div>
+                    <p class="col-xs-8">Average Hits per Second:</p>
+                    <p class="col-xs-4 text-green">50,500</p>               
+                    </div>
+            </div>
+        </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="tiles">
+            <h1>Observations and suggestions</h1>
+            <div class="content height250">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud xercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in
+reprehenderit in Voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia
+deserunt mollit anim id est laborum</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing
+elit, sed do eiusmod tempor incididunt ut labore et
+dolore magna aliqua. Ut enim ad minim veniam, quis
+nostrud xercitation ullamco laboris nisi ut aliquip ex ea
+commodo consequat. Duis aute irure dolor in
+reprehenderit in Voluptate velit esse cillum dolore
+eu fugiat nulla pariatur. Excepteur sint occaecat
+cupidatat non proident, sunt in culpa qui officia
+deserunt mollit anim id est laborum</p>
+            </div>
+        </div>
+            </div>
+        </div>
+                        <hr>
+                        <div class="col-md-12">
+                <uib-tabset >
+    <uib-tab index="0" heading="End to End Test">
+        <div class="fixedScrollTable">		
+		<!-- First table - scroll hidden-->
+		<div class="leftPanel">
+			<div id="table" class="tableClass">
+				<div class="theadClass">
+					<div class="trClass">
+						<div class="thClass">SLA</div>
+					</div>
+				</div>
+				<div class="tbodyClass hideScrollBar" id="firsttable" style="height:300px">
+					<div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content"></div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content"></div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content"></div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content"></div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content"></div>
+							</div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" class="rowContainer">
+						<div class="trClass">
+							<div class="tdClass">								
+								<div class="td-content"></div>
+							</div>
+						</div>						
+					</div>
+                    
+				</div>
+			</div>
+		</div>
+		
+		<!-- Second table -->
+		<div class="rightPanel">
+			<div id="table" class="tableClass">
+				<div class="theadClass addThickBorder" id="headerSn">
+					<div class="trClass" ng-style="rowWidth">
+                        <div class="thClass" >SLA (Status)</div> 
+                        <div class="thClass" >Minimum</div> 
+                        <div class="thClass" >Average</div> 
+                        <div class="thClass" >Maximum</div> 
+                        <div class="thClass" >90 percent</div> 
+                        <div class="thClass" >June 6th</div>
+                        <div class="thClass" >Remarks</div>                                                
+					</div>
+				</div>
+				<div class="tbodyClass" scrolltable="true" horzelem="headerSn" nexttable="firsttable" style="height:300px">
+					<div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+						</div>						
+					</div>
+                    <div style="width: 100%; float: left; border: none;" ng-style="rowWidth">
+						<div class="trClass">
+							<div class="tdClass"> 
+								<div class="td-content">10</div>
+							</div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+                            <div class="tdClass"></div>
+						</div>						
+					</div>
+                    
+                    
+				</div>
+			</div>
+		</div>
+	</div>
+      </uib-tab>
+                    <uib-tab index="1" heading="API Responses">
+        Content come her
+      </uib-tab>
+      <uib-tab index="2" heading="User Experience">
+        Content come her
+      </uib-tab>
+      <uib-tab index="3" heading="Graphs">
+        Content come her
+      </uib-tab>
+  </uib-tabset>                          
+        </div> 
+      </uib-tab>
+  </uib-tabset>                          
+        </div> 
+    <script type="text/ng-template" id="myModalContent.html">
+        <div class="modal-header">
+            <button type="button" class="close" ng-click="cancel()" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title">Set Default Application</h3>
+        </div>
+        <div class="modal-body">
+            <div class="form-horizontal">
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-4 control-label">Choose Application</label>
+                    <div class="col-sm-6">
+                        <select class="form-control" >
+                            <option value="Production web link">Production web link</option>
+                            <option value="Production web link">PM Sync</option>
+                            <option value="Production web link">OMS</option>
+                            </select>   
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="inputEmail3" class="col-sm-4 control-label">Choose Option</label>
+                    <div class="col-sm-6">
+                        <label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> Production
+</label>
+<label class="radio-inline">
+  <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2"> QA
+</label>
+                    </div>
+                </div>
+            </div>            
+        </div>
+        <div class="modal-footer">
+            <span class="pull-left"><i>Note: This is an One time Activity.</i></span>
+            <button class="btn btn-primary" type="button" ng-click="ok()">Save</button>            
+        </div>
+    </script>
+</section>

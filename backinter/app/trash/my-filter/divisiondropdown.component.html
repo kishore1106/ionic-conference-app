@@ -1,0 +1,8 @@
+<div>
+    <label>division:</label>
+    <select [(ngModel)]="selected_division_id" (change)="onChange_division_Id($event.target.value)">
+    <!--<option *ngIf="selectedteamid==team1" value="team1" >--Select--</option>-->
+        <option *ngFor="let division of division_list_array "   [value]="division" >{{division}}</option>
+    </select>
+    <p>{{selected_division_id}}</p>
+</div>

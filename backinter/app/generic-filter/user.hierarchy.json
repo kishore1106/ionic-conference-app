@@ -1,0 +1,333 @@
+[
+    {
+        "userId": "dd2",
+        "firstName": "Prasanna",
+        "lasteName": "Kumar",
+        "parentid": "div_123",
+        "roleId": "1",
+        "department": {
+            "id": "dept01",
+            "name": "ACSD",
+            "parentId": "dept01",
+            "source": "department",
+            "divisions": [
+                {
+                    "id": "division01",
+                    "name": "TES",
+                    "parentId": "dept01",
+                    "source": "division",
+                    "sections": [
+                        {
+                            "id": "sec_111",
+                            "name": "Section-IMSS",
+                            "parentId": "division01",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_111",
+                                    "name": "Team-CRM",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_222",
+                                    "name": "Team-Pheonix",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "userId": "dd2",
+        "firstName": "jeya",
+        "lasteName": "sundari",
+        "parentid": "div_123",
+        "roleId": "2",
+        "department": {
+            "id": "dept01",
+            "name": "ACSD",
+            "parentId": "dept01",
+            "source": "department",
+            "divisions": [
+                {
+                    "id": "division01",
+                    "name": "TES",
+                    "parentId": "dept01",
+                    "source": "division",
+                    "sections": [
+                        {
+                            "id": "sec_111",
+                            "name": "Section-IMSS",
+                            "parentId": "division01",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_111",
+                                    "name": "Team-CRM",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_222",
+                                    "name": "Team-Pheonix",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sec_222",
+                            "name": "Section-ISSS",
+                            "parentId": "division01",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_333",
+                                    "name": "Team-PL WEB",
+                                    "parentId": "sec_222",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_444",
+                                    "name": "Team-DSP",
+                                    "parentId": "sec_222",
+                                    "source": "team"
+                                }
+                            ]
+                        }
+                       
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "userId": "dd2",
+        "firstName": "Seenivasan",
+        "lasteName": "V.",
+        "parentid": "div_123",
+        "roleId": "3",
+        "department": {
+            "id": "dept01",
+            "name": "ACSD",
+            "parentId": "dept01",
+            "source": "department",
+            "divisions": [
+                {
+                    "id": "division01",
+                    "name": "TES",
+                    "parentId": "dept01",
+                    "source": "division",
+                    "sections": [
+                        {
+                            "id": "sec_111",
+                            "name": "Section-IMSS",
+                            "parentId": "division01",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_111",
+                                    "name": "Team-CRM",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_222",
+                                    "name": "Team-Pheonix",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sec_222",
+                            "name": "Section-ISSS",
+                            "parentId": "division01",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_333",
+                                    "name": "Team-PL WEB",
+                                    "parentId": "sec_222",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_444",
+                                    "name": "Team-DSP",
+                                    "parentId": "sec_222",
+                                    "source": "team"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "division02",
+                    "name": "ON-BOARD",
+                    "parentId": "dept01",
+                    "source": "division",
+                    "sections": [
+                        {
+                            "id": "sec_333",
+                            "name": "Section-ASSC",
+                            "parentId": "division02",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_555",
+                                    "name": "Team-VSM",
+                                    "parentId": "sec_333",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_666",
+                                    "name": "Team-MOBILE",
+                                    "parentId": "sec_333",
+                                    "source": "team"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sec_444",
+                            "name": "Section-ATCC",
+                            "parentId": "division02",
+                            "roleId": "6",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_777",
+                                    "name": "Team-TELEMATICS",
+                                    "parentId": "sec_444",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_888",
+                                    "name": "Team-CM",
+                                    "parentId": "sec_444",
+                                    "source": "team"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    {
+        "userId": "dd2",
+        "firstName": "Seenivasan",
+        "lasteName": "V.",
+        "parentid": "div_123",
+        "roleId": "4",
+        "department": {
+            "id": "dept01",
+            "name": "ACSD",
+            "parentId": "dept01",
+            "source": "department",
+            "divisions": [
+                {
+                    "id": "division01",
+                    "name": "TES",
+                    "parentId": "dept01",
+                    "source": "division",
+                    "sections": [
+                        {
+                            "id": "sec_111",
+                            "name": "Section-IMSS",
+                            "parentId": "division01",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_111",
+                                    "name": "Team-CRM",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_222",
+                                    "name": "Team-Pheonix",
+                                    "parentId": "sec_111",
+                                    "source": "team"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sec_222",
+                            "name": "Section-ISSS",
+                            "parentId": "division01",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_333",
+                                    "name": "Team-PL WEB",
+                                    "parentId": "sec_222",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_444",
+                                    "name": "Team-DSP",
+                                    "parentId": "sec_222",
+                                    "source": "team"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": "division02",
+                    "name": "ON-BOARD",
+                    "parentId": "dept01",
+                    "source": "division",
+                    "sections": [
+                        {
+                            "id": "sec_333",
+                            "name": "Section-ASSC",
+                            "parentId": "division02",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_555",
+                                    "name": "Team-VSM",
+                                    "parentId": "sec_333",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_666",
+                                    "name": "Team-MOBILE",
+                                    "parentId": "sec_333",
+                                    "source": "team"
+                                }
+                            ]
+                        },
+                        {
+                            "id": "sec_444",
+                            "name": "Section-ATCC",
+                            "parentId": "division02",
+                            "roleId": "6",
+                            "source": "section",
+                            "teams": [
+                                {
+                                    "id": "t_777",
+                                    "name": "Team-TELEMATICS",
+                                    "parentId": "sec_444",
+                                    "source": "team"
+                                },
+                                {
+                                    "id": "t_888",
+                                    "name": "Team-CM",
+                                    "parentId": "sec_444",
+                                    "source": "team"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+]

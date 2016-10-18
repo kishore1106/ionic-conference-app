@@ -1,0 +1,231 @@
+body{background: #EEEEEE;}
+#content{padding-top: 51px;}
+.secondaryMenu{
+    background: #444444; padding-top:10px; padding-bottom:10px; color:#fff;
+}
+.secondaryMenu select{color: #555; padding: 5px;}
+.secondaryMenu .radioOptions{margin-left: 10px; padding-top: 5px;}
+.secondaryMenu .Download{font-size: 14px; font-weight: bold; color: #fff; cursor: pointer;     margin-left: 10px;    padding: 7px 0 0;}
+.secondaryMenu .Download:hover{opacity: 0.8}
+h3 .dropMenu { font-size: 15px; color: #666; padding: 5px; cursor: pointer;}
+.dropMenuOptions,h3 .dropMenu.active,h3 .dropMenu:hover{background: #444444; color: #fff;}
+.dropMenuOptions{font-size: 12px; margin-top: -10px; padding: 10px 0;}
+.dropMenuOptions p{margin:4px 0;}
+
+/*Tabs ui*/
+.nav-tabs{border: 0 none;}
+.nav-tabs > li > a{color: #666; border-radius: 0;}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus{background: #333; color: #fff; }
+.tab-content{margin-right: -15px;    margin-left: -15px;    padding: 15px; border-top: 1px #ccc solid;}
+
+.thumbnail{border-radius: 10px; padding: 15px;}
+.chartUi:nth-of-type(1) .thumbnail{background:#F9A684;}
+.chartUi:nth-of-type(2) .thumbnail{background:#FFD67F;}
+.chartUi:nth-of-type(3) .thumbnail{background:#9ECA8A;}
+.glyphicon-asterisk:nth-of-type(1){color: #F9A684;}
+.glyphicon-asterisk:nth-of-type(3){color: #FFD67F;}
+.glyphicon-asterisk:nth-of-type(5){color: #9ECA8A;}
+.chartHer{ background:#fff; text-align: center;}
+
+.titesUI{margin-bottom: 15px;}
+.tiles{box-shadow: 0 0 5px #bbb;}
+.tiles h1{background: #000;    color: #fff;    font-size: 17px;    padding: 10px;    margin: 0;}
+.tiles .content{background: #fff; padding: 10px;}
+
+.tiles .content .bg-light-grey{background: #eeeeee;}
+.tiles .content .text-green{color: #199D54;}
+
+.content-box{padding: 5px 0;}
+.height100{height:100px;}
+.height250{height:250px; overflow-y: auto;}
+
+/*slider*/
+
+.center {
+    text-align: center;
+}
+
+ul[rn-carousel] {
+    width:100%;
+    height:300px;
+    margin: 0 auto;
+}
+
+.carousel5 li {
+    width:100%;
+    height:100%;
+    font-size:30px;
+    background-color: #ccc;
+}
+
+.carousel-demo ul[rn-carousel-transition="hexagon"] {
+  margin-left:100px;
+}
+
+.custom-indicator span {
+  transition: all 0.3s ease-in;
+}
+.custom-indicator span.active {
+  color:yellow !important;
+}
+
+/*slider */
+ul[rn-carousel] {
+  overflow: hidden;
+  padding: 0;
+  white-space: nowrap;
+  position: relative;
+  -webkit-perspective: 1000px;
+  -ms-perspective: 1000px;
+  perspective: 1000px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y; }
+  ul[rn-carousel] > li {
+    color: black;
+    -webkit-backface-visibility: hidden;
+    -ms-backface-visibility: hidden;
+    backface-visibility: hidden;
+    overflow: visible;
+    vertical-align: top;
+    position: absolute;
+    left: 0;
+    right: 0;
+    white-space: normal;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    width: 450px;
+    padding-right: 10px;
+    height: 100%;
+    display: inline-block; }
+
+/* prevent flickering when moving buffer */
+ul[rn-carousel-buffered] > li {
+  display: none; }
+
+ul[rn-carousel-transition="hexagon"] {
+  overflow: visible; }
+
+/* indicators */
+div.rn-carousel-indicator span {
+  cursor: pointer;
+  color: #666; }
+  div.rn-carousel-indicator span.active {
+    color: white; }
+
+/* prev/next controls */
+.rn-carousel-control {
+  -webkit-transition: opacity 0.2s ease-out;
+  transition: opacity 0.2s ease-out;
+  font-size: 2rem;
+  position: absolute;
+  top: 40%;
+  opacity: 0.75;
+  cursor: pointer; }
+  .rn-carousel-control:hover {
+    opacity: 1; }
+  .rn-carousel-control.rn-carousel-control-prev {
+    left: 0.5em; }
+    .rn-carousel-control.rn-carousel-control-prev:before {
+      content: "<";     font-size: 40px;
+    font-weight: bold;}
+  .rn-carousel-control.rn-carousel-control-next {
+    right: 0.5em; }
+    .rn-carousel-control.rn-carousel-control-next:before {
+      content: ">";     font-size: 40px;
+    font-weight: bold;}
+ul[rn-carousel] .tiles .content{height: 240px;}
+
+/*Modals*/
+.setting .modal-header{ padding:5px 10px;  background: #333; color: #fff; }
+.setting .modal-header h3{font-size: 18px;}
+.setting .close{color: #fff; opacity: 0.8}
+.setting label{font-weight: normal;}
+
+/*button ui*/
+.btn-primary{background: #333; color: #fff;}
+.btn-primary:hover{background: #000;}
+
+/*fixed header table*/
+.fixedScrollTable div{ box-sizing: border-box;float: left;width: 100%;}
+.fixedScrollTable .leftPanel {
+	/*width: 408px;*/
+	width: 20%;
+}
+.fixedScrollTable .rightPanel {
+	/*width: 1200px;*/
+	width: 80%;
+}
+.fixedScrollTable .tableClass{
+	width: 100%;
+	height: 500px;
+}
+.fixedScrollTable .theadClass{
+	height: 50px;
+	width: 100%;
+	overflow: hidden;
+}
+.fixedScrollTable .addThickBorder {
+	//border-right: 18px solid black;
+}		
+.fixedScrollTable .trClass{
+	width: 100%;
+	height: 50px;    
+}
+.fixedScrollTable .tbodyClass>div{
+    background: #fff;
+}
+.fixedScrollTable .tbodyClass>div:nth-of-type(2n){
+    background: #eee;
+}
+.fixedScrollTable .tdClass,.fixedScrollTable .thClass{height: 100%;}
+.fixedScrollTable .rightPanel .tdClass, .fixedScrollTable .rightPanel .thClass{
+	width: 170px;	
+}
+.fixedScrollTable .thClass{
+	background-color: #333;
+    color:#fff; 
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    border-right: 1px #eee solid;
+}
+.fixedScrollTable .leftPanel .tbodyClass .trClass{
+border-bottom: 1px solid #ccc;
+    }
+.fixedScrollTable .leftPanel .tbodyClass .trClass .tdClass{
+border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    }
+.fixedScrollTable .rightPanel .tbodyClass .trClass{
+border-bottom: 1px solid #ccc;
+    }
+.fixedScrollTable .rightPanel .tbodyClass .trClass .tdClass{
+border-right: 1px solid #ccc;
+    }
+.fixedScrollTable .tbodyClass{
+	height: 450px;
+	width: 100%;
+	overflow-y: scroll;
+	overflow-x: auto;
+}
+
+.fixedScrollTable .hideScrollBar{
+	overflow: hidden;
+}
+
+.fixedScrollTable .horizontalOverflow {
+	min-width: 10000px;
+}
+
+.fixedScrollTable  #firsttable .rowContainer:last-child {
+	margin-bottom: 50px;
+}
+.fixedScrollTable .tdClass {padding:5px;}
+.fixedScrollTable .td-content{height:100%; padding: 5px; text-align:center;}
+.fixedScrollTable .rightPanel .th-content{height:100%; padding: 5px; text-align: center; font-weight: bold;}
+
+.bg-green{background: #169D54; color: #fff;}
+.bg-red{background: #EF2D35; color: #fff;}
+.bg-orange{background: #F89E33; color: #fff;}
+.bg-grey{background: #636363; color: #fff;}

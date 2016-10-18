@@ -1,0 +1,4 @@
+<!--<my-generic-filter (selectedListOutput)="selectList($event)"></my-generic-filter>-->
+<my-multi-selector (disableEdit)="disableEdit($event)" (selectedListOutput)="selectList($event)" ></my-multi-selector>
+<my-velocity-table [selectedList]="selectedList" (changedvaluesofvelocity)="changedvaluesofvelocitytable($event)" [editableField]="editableField"></my-velocity-table>
+<save [updatedVelocityData]="changedVelocityAarray" (editRightsEvent)="editrights($event)" ></save>

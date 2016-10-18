@@ -1,0 +1,48 @@
+<wpHeader [userDetailsFirstName]="userDetailsFirstName" [userDetailsLastName]="userDetailsLastName"></wpHeader>
+<style>
+    hr {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 0;
+        border-top: 3px solid #ffbf00;
+    }
+</style>
+
+<section id="mainSection">
+    <div class="cat-container">
+        <div class="">
+            <div class="sub-nav">
+                <div class="navbar-header">
+                    <button type="button" data-target="#navbarCollapse" data-toggle="collapse" class="navbar-toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                    <a href="#" class="navbar-brand">WEB PORTAL </a>
+                </div>
+                <div id="navbarCollapse" class="collapse navbar-collapse no-padding">
+                    <ul class="nav nav-tabs tab-tile" role="tablist">
+                        <li role="presentation"><a class="active" routerLink="/quality" routerLinkActive="active" [routerLinkActiveOptions]="{ exact: true }">Quality</a></li>
+                        <li role="presentation"><a routerLink="/velocity" routerLinkActive="active" href="">Velocity</a></li>
+                        <li role="presentation"><a routerLink="/report" routerLinkActive="active" href="">Report</a></li>
+                        <li *ngIf="isAdmin" role="presentation"><a routerLink="/admin" routerLinkActive="active" href="">Admin</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <main>
+                <div class="tab-content marb20 col-xs-12 no-padding">
+                    <section>
+                        <div class="tab-container col-xs-12">
+                            <div class="tab-content mar20 col-xs-12 no-padding">
+                                <router-outlet></router-outlet>
+                            </div>
+                        </div>
+                    </section>
+
+                </div>
+            </main>
+            <!--<save></save>-->
+        </div>
+    </div>
+</section>
+<!--<my-multi-selector [userSections]="userSections"></my-multi-selector> <my-spinner [isRunning]="isRequesting"></my-spinner>-->
+<my-footer></my-footer>

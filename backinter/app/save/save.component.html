@@ -1,0 +1,60 @@
+<style>
+    .button {
+        background: #3f3f3f;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        margin-right: 20px;
+        height: auto;
+        width: 98px;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 5px 3px;
+        border: 1px solid #000;
+        border-radius: 0
+    }
+    
+    .button2 {
+        background: #3f3f3f;
+        color: #fff;
+        text-transform: uppercase;
+        display: inline-block;
+        /*margin-right:10px;*/
+        height: auto;
+        width: 98px;
+        font-weight: normal;
+        font-style: normal;
+        font-size: 14px;
+        line-height: 14px;
+        padding: 5px 6px;
+        border: 1px solid #000;
+        border-radius: 0
+    }
+    
+    hr {
+        border-top: 3px solid #ffbf00;
+    }
+    
+    a {
+        color: #7a7a7a;
+    }
+</style>
+
+
+<!--<button class="button pull-right">SAVE</button>-->
+
+
+<div class=" col-xs-12 mar30">
+    <div class="hr-class col-xs-12 no-padding mar10"></div>
+    <div class="tab-submit">
+        <div class="note pull-left">
+            Note: Once you click Submit, you will not have access to edit the entries.
+        </div>
+        <div class="title-btn">
+            <button class="cat-btn" (click)=saveChanges()>SAVE</button>
+            <button class="cat-btn" (click)=editToggle()>SUBMIT</button>
+        </div>
+    </div>
+</div>

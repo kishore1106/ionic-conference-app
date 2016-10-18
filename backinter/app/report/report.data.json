@@ -1,0 +1,317 @@
+[{  
+    
+    "sectionId":"sec_111",
+     "sectionName":"Section-IMSS",
+    "sectionData": [
+        {
+            "label": "JAN",
+            "month":0,
+            "weightage": 100,
+            "qualityImprovement": 25.08,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 0,
+            "currentRunRate":32,
+            "onTimeDelivery": 100,
+            "productiveImprovement": 27.1,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "FEB",
+            "month":1,
+            "weightage": 100,
+            "qualityImprovement": 13,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 0,
+            "currentRunRate":23,
+            "onTimeDelivery": 100,
+            "productiveImprovement": 8,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAR",
+            "month":2,
+            "weightage": 100,
+            "qualityImprovement":29 ,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 2,
+            "currentRunRate":30,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -12,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "APR",
+            "month":3,
+            "weightage": 100,
+            "qualityImprovement": 36.10,
+            "qualitytargetval": 25,
+            "externalToCat": 3,
+            "externalToAcsd": 9,
+            "currentRunRate":40,
+            "onTimeDelivery": 100,
+            "productiveImprovement": -37,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAY",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": -13.50,
+            "qualitytargetval": 25,
+            "externalToCat": 1,
+            "externalToAcsd": 13,
+            "currentRunRate":42,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -63,
+            "productivitytargetval": 10
+        },
+                {
+            "label": "JUNE",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": -13.50,
+            "qualitytargetval": 25,
+            "externalToCat": 1,
+            "externalToAcsd": 13,
+            "currentRunRate":42,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -63,
+            "productivitytargetval": 10
+        },
+         {
+            "label": "JULY",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": -13.50,
+            "qualitytargetval": 25,
+            "externalToCat": 1,
+            "externalToAcsd": 13,
+            "currentRunRate":42,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -63,
+            "productivitytargetval": 10
+        }
+    ]
+},
+{  
+    
+    "sectionId":"sec_222",
+     "sectionName":"Section-ISSS",
+    "sectionData": [
+        {
+            "label": "JAN",
+            "month":0,
+            "weightage": 100,
+            "qualityImprovement": 14,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 0,
+            "currentRunRate":32,
+            "onTimeDelivery": 0,
+            "productiveImprovement": 27.1,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "FEB",
+            "month":1,
+            "weightage": 100,
+            "qualityImprovement": 49,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 0,
+            "currentRunRate":32,
+            "onTimeDelivery": 0,
+            "productiveImprovement": 8,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAR",
+            "month":2,
+            "weightage": 100,
+            "qualityImprovement":49 ,
+            "qualitytargetval": 25,
+            "externalToCat": 1,
+            "externalToAcsd": 0,
+            "currentRunRate":32,
+            "onTimeDelivery": 100,
+            "productiveImprovement": -12,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "APR",
+            "month":3,
+            "weightage": 100,
+            "qualityImprovement": 10,
+            "qualitytargetval": 20,
+            "externalToCat": 1,
+            "externalToAcsd":2,
+            "currentRunRate":32,
+            "onTimeDelivery": 100,
+            "productiveImprovement": -37,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAY",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": 27,
+            "qualitytargetval": 20,
+            "externalToCat": 1,
+            "externalToAcsd": 3,
+            "currentRunRate":32,
+            "onTimeDelivery": 100,
+            "productiveImprovement": -63,
+            "productivitytargetval": 10
+        }
+    ]
+},
+{  
+    
+    "sectionId":"sec_333",
+ "sectionName":"Section-ASSC",
+    "sectionData": [
+        {
+            "label": "JAN",
+            "month":0,
+            "weightage": 100,
+            "qualityImprovement": 25.08,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 100,
+            "currentRunRate":32,
+            "onTimeDelivery": 96,
+            "productiveImprovement": 27.1,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "FEB",
+            "month":1,
+            "weightage": 100,
+            "qualityImprovement": 13,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 0,
+            "currentRunRate":32,
+            "onTimeDelivery": 100,
+            "productiveImprovement": 8,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAR",
+            "month":2,
+            "weightage": 100,
+            "qualityImprovement":29 ,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 2,
+            "currentRunRate":32,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -12,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "APR",
+            "month":3,
+            "weightage": 100,
+            "qualityImprovement": 36.10,
+            "qualitytargetval": 20,
+            "externalToCat": 100,
+            "externalToAcsd": 9,
+            "currentRunRate":32,
+            "onTimeDelivery": 0,
+            "productiveImprovement": -37,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAY",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": -13.50,
+            "qualitytargetval": 20,
+            "externalToCat": 0,
+            "externalToAcsd": 13,
+            "currentRunRate":32,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -63,
+            "productivitytargetval": 10
+        }
+    ]
+},
+{  
+    
+    "sectionId":"sec_444",
+ "sectionName":"Section-ATCC",
+    "sectionData": [
+        {
+            "label": "JAN",
+            "month":0,
+            "weightage": 100,
+            "qualityImprovement": 25.08,
+            "qualitytargetval": 25,
+            "externalToCat": 100,
+            "externalToAcsd": 100,
+            "currentRunRate":32,
+            "onTimeDelivery": 96,
+            "productiveImprovement": 27.1,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "FEB",
+            "month":1,
+            "weightage": 100,
+            "qualityImprovement": 13,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 0,
+            "currentRunRate":32,
+            "onTimeDelivery": 100,
+            "productiveImprovement": 8,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAR",
+            "month":2,
+            "weightage": 100,
+            "qualityImprovement":29 ,
+            "qualitytargetval": 25,
+            "externalToCat": 0,
+            "externalToAcsd": 2,
+            "currentRunRate":32,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -12,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "APR",
+            "month":3,
+            "weightage": 100,
+            "qualityImprovement": 36.10,
+            "qualitytargetval": 20,
+            "externalToCat": 3,
+            "externalToAcsd": 9,
+            "currentRunRate":32,
+            "onTimeDelivery": 100,
+            "productiveImprovement": -37,
+            "productivitytargetval": 10
+        },
+        {
+            "label": "MAY",
+            "month":4,
+            "weightage": 100,
+            "qualityImprovement": -13.50,
+            "qualitytargetval": 20,
+            "externalToCat": 1,
+            "externalToAcsd": 13,
+            "currentRunRate":32,
+            "onTimeDelivery": 99,
+            "productiveImprovement": -63,
+            "productivitytargetval": 10
+        }
+    ]
+}
+
+]
+
